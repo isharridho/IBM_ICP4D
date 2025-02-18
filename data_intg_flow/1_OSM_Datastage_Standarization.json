@@ -1015,8 +1015,7 @@
           "ruleset" : "AbsoluteName",
           "optionMap" : [ ],
           "location" : "./Customized Standardization Rules/Other Standardization Rules/AbsoluteName",
-          "postLiteral" : "",
-          "asset_id" : "2bc96f09-98d8-45f2-b075-8a367595c31d"
+          "postLiteral" : ""
         } ],
         "preserve" : -3,
         "inputName" : "Link_3",
@@ -1143,6 +1142,7 @@
       "connection" : {
         "ref" : "54719232-7cd0-42dd-98cf-f76b8f8716d2",
         "project_ref" : "16ce275c-c722-4e5b-b278-a8b54176b58d",
+        "name" : "BigQuery_Ishar",
         "properties" : {
           "_java._heap_size" : 256,
           "currentOutputLinkType" : "PRIMARY",
@@ -1171,8 +1171,7 @@
           "before_after.after.fail_on_error" : true,
           "use_gcs_staging" : false,
           "procParamProperties" : [ ]
-        },
-        "name" : "BigQuery_Ishar"
+        }
       },
       "id" : "70e2c984-0b8a-4286-a84a-14e7f4f1b1f1",
       "type" : "binding",
@@ -1273,6 +1272,7 @@
       "connection" : {
         "ref" : "54719232-7cd0-42dd-98cf-f76b8f8716d2",
         "project_ref" : "16ce275c-c722-4e5b-b278-a8b54176b58d",
+        "name" : "BigQuery_Ishar",
         "properties" : {
           "_java._heap_size" : 256,
           "currentOutputLinkType" : "PRIMARY",
@@ -1304,17 +1304,16 @@
           "before_after.before.fail_on_error" : true,
           "before_after.after.fail_on_error" : true,
           "procParamProperties" : [ ]
-        },
-        "name" : "BigQuery_Ishar"
+        }
       },
       "id" : "23f77a70-e821-47be-a102-0194bd71b5b3",
       "type" : "binding",
       "app_data" : {
         "ui_data" : {
           "image" : "/data-intg/flows/graphics/palette/bigqueryPX.svg",
-          "x_pos" : 1188,
+          "x_pos" : 997.92,
           "label" : "POC_1",
-          "y_pos" : 79.2
+          "y_pos" : 47.519999999999996
         }
       },
       "parameters" : {
@@ -1802,6 +1801,8 @@
       } ],
       "connection" : {
         "ref" : "54719232-7cd0-42dd-98cf-f76b8f8716d2",
+        "project_ref" : "16ce275c-c722-4e5b-b278-a8b54176b58d",
+        "name" : "BigQuery_Ishar",
         "properties" : {
           "_java._heap_size" : 256,
           "currentOutputLinkType" : "PRIMARY",
@@ -1832,8 +1833,7 @@
           "before_after.before.fail_on_error" : true,
           "before_after.after.fail_on_error" : true,
           "procParamProperties" : [ ]
-        },
-        "name" : "BigQuery_Ishar"
+        }
       },
       "id" : "8162ba05-a2e5-4c7a-87a7-7f14ee6b80cc",
       "type" : "binding",
@@ -1967,7 +1967,7 @@
           "null_field_sep_flag" : false,
           "null_field" : "'NULL'",
           "firstLineColumnNames" : "firstLineColumnNames",
-          "data_asset_id" : "b8a11287-4268-431f-8773-32e1909cdf42",
+          "data_asset_id" : "c109e8f8-0e99-4583-bba3-a93cabbbd534",
           "buf_mode" : "default",
           "keepPartitions" : " ",
           "record_delim" : "'\\n'",
@@ -2224,6 +2224,7 @@
       "connection" : {
         "ref" : "54719232-7cd0-42dd-98cf-f76b8f8716d2",
         "project_ref" : "16ce275c-c722-4e5b-b278-a8b54176b58d",
+        "name" : "BigQuery_Ishar",
         "properties" : {
           "_java._heap_size" : 256,
           "currentOutputLinkType" : "PRIMARY",
@@ -2252,8 +2253,7 @@
           "before_after.after.fail_on_error" : true,
           "use_gcs_staging" : false,
           "procParamProperties" : [ ]
-        },
-        "name" : "BigQuery_Ishar"
+        }
       },
       "id" : "b6460225-a9a9-48e0-bbfd-19d47e9779e7",
       "type" : "binding",
@@ -2568,8 +2568,7 @@
           "ruleset" : "AbsoluteName",
           "optionMap" : [ ],
           "location" : "./Customized Standardization Rules/Other Standardization Rules/AbsoluteName",
-          "postLiteral" : "",
-          "asset_id" : "2bc96f09-98d8-45f2-b075-8a367595c31d"
+          "postLiteral" : ""
         } ],
         "preserve" : -3,
         "inputName" : "Link_25",
