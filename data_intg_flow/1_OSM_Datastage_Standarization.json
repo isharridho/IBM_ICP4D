@@ -1,0 +1,5319 @@
+{
+  "primary_pipeline" : "b0786186-5577-46a4-8acc-34e02ca73dfc",
+  "pipelines" : [ {
+    "nodes" : [ {
+      "outputs" : [ {
+        "id" : "69772a1f-d876-4cda-a86b-a877a70ba556",
+        "app_data" : {
+          "datastage" : {
+            "is_source_of_link" : "86a905e5-27f9-417e-b69e-8e32d2337826"
+          },
+          "ui_data" : {
+            "label" : "outPort",
+            "cardinality" : {
+              "min" : 0,
+              "max" : 2147483646
+            }
+          },
+          "additionalProperties" : {
+            "enableAcp" : true
+          }
+        },
+        "schema_ref" : "836783c7-bd28-4f7b-8749-13803387bec2",
+        "parameters" : {
+          "outputName" : "Link_10",
+          "buf_mode" : "default"
+        }
+      }, {
+        "id" : "f02b8d21-e488-4882-a303-0bef17ca2360",
+        "app_data" : {
+          "datastage" : {
+            "is_source_of_link" : "d31b876a-583d-4fb3-8a3b-2324a40839f2"
+          },
+          "ui_data" : {
+            "label" : "outPort",
+            "cardinality" : {
+              "min" : 0,
+              "max" : 2147483646
+            }
+          },
+          "additionalProperties" : {
+            "enableAcp" : true
+          }
+        },
+        "schema_ref" : "7df738fb-1f03-4f3c-a860-ba13f7b823d7",
+        "parameters" : {
+          "outputName" : "Link_15",
+          "buf_mode" : "default"
+        }
+      }, {
+        "id" : "aa30fd7a-b262-409b-ac29-e60fd9e40fd7",
+        "app_data" : {
+          "datastage" : {
+            "is_source_of_link" : "6d255c57-2aab-44bd-814f-f6c762de5abc"
+          },
+          "ui_data" : {
+            "label" : "outPort",
+            "cardinality" : {
+              "min" : 0,
+              "max" : 2147483646
+            }
+          }
+        },
+        "schema_ref" : "696393dd-efa9-49ec-a15d-b954d471b2a0"
+      } ],
+      "op" : "PxCopy",
+      "inputs" : [ {
+        "links" : [ {
+          "node_id_ref" : "3cf08999-66f0-41f6-9cdb-727e56fa766b",
+          "type_attr" : "PRIMARY",
+          "id" : "6de6bc79-f19d-4837-b3eb-02f7fab4d8e5",
+          "app_data" : {
+            "datastage" : { },
+            "ui_data" : {
+              "decorations" : [ {
+                "image" : "/data-intg/flows/graphics/flows/link-output-handle--default-selected.svg",
+                "temporary" : false,
+                "outline" : false,
+                "distance" : 0,
+                "x_pos" : -10,
+                "id" : "dec-3",
+                "position" : "source",
+                "y_pos" : -10,
+                "class_name" : "linkStartImage"
+              }, {
+                "image" : "/data-intg/flows/graphics/flows/link-marking--auto-partitioning.svg",
+                "temporary" : false,
+                "outline" : false,
+                "distance" : 2,
+                "width" : 50,
+                "tooltip" : "Auto-partition",
+                "x_pos" : -15,
+                "id" : "dec-6R",
+                "position" : "middle",
+                "y_pos" : 4,
+                "height" : 50
+              }, {
+                "temporary" : false,
+                "label_allow_return_key" : "save",
+                "label_single_line" : true,
+                "width" : 100,
+                "label_editable" : true,
+                "x_pos" : -18,
+                "id" : "dec-8",
+                "position" : "middle",
+                "label" : "Link_29",
+                "y_pos" : -20,
+                "height" : 80
+              } ],
+              "class_name" : "linkStyle__runMetricsLinkDefaultStyle___ixW31"
+            }
+          },
+          "link_name" : "Link_29",
+          "port_id_ref" : "7f1623c8-95aa-4e64-9718-cc0913d1f770"
+        } ],
+        "id" : "2c2f195d-212c-43cf-ba72-c70d88bd9a12",
+        "app_data" : {
+          "ui_data" : {
+            "label" : "inPort",
+            "cardinality" : {
+              "min" : 1,
+              "max" : 1
+            }
+          }
+        },
+        "schema_ref" : "d4776c97-14ff-44a3-93a4-2483dc482cf2"
+      } ],
+      "id" : "f87d95a2-12e8-40ed-9d4e-7c9149ca4df5",
+      "type" : "execution_node",
+      "app_data" : {
+        "ui_data" : {
+          "image" : "/data-intg/flows/graphics/palette/PxCopy.svg",
+          "x_pos" : 997.92,
+          "label" : "Copy_1",
+          "y_pos" : 190.07999999999998
+        }
+      },
+      "parameters" : {
+        "combinability" : "auto",
+        "showPartType" : true,
+        "inputcolProperties" : [ {
+          "Description" : "",
+          "Signed" : false,
+          "Metadata" : "LONGVARCHAR(100), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "KODE_NASABAH",
+          "TempOldColumnName" : "KODE_NASABAH",
+          "ColumnName" : "KODE_NASABAH",
+          "Length" : 100,
+          "MisFieldProperties" : "",
+          "DataType" : "LONGVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Description" : "",
+          "Signed" : false,
+          "Metadata" : "LONGVARCHAR(100), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "NAMA_CUSTOMER",
+          "TempOldColumnName" : "NAMA_CUSTOMER",
+          "ColumnName" : "NAMA_CUSTOMER",
+          "Length" : 100,
+          "MisFieldProperties" : "",
+          "DataType" : "LONGVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Description" : "",
+          "Signed" : false,
+          "Metadata" : "LONGVARCHAR(100), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "NAMA_KATEGORI",
+          "TempOldColumnName" : "NAMA_KATEGORI",
+          "ColumnName" : "NAMA_KATEGORI",
+          "Length" : 100,
+          "MisFieldProperties" : "",
+          "DataType" : "LONGVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Description" : "",
+          "Signed" : false,
+          "Metadata" : "LONGVARCHAR(100), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "INTERCO_CD",
+          "TempOldColumnName" : "INTERCO_CD",
+          "ColumnName" : "INTERCO_CD",
+          "Length" : 100,
+          "MisFieldProperties" : "",
+          "DataType" : "LONGVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : true,
+          "Description" : "AcronymOfKeywords",
+          "Signed" : false,
+          "Metadata" : "VARCHAR(10), Null, Unicode",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "AcronymOfKeywords_AbsoluteName",
+          "TempOldColumnName" : "AcronymOfKeywords_AbsoluteName",
+          "ColumnName" : "AcronymOfKeywords_AbsoluteName",
+          "Length" : 10,
+          "MisFieldProperties" : "",
+          "DataType" : "VARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : true,
+          "Description" : "CompanyName",
+          "Signed" : false,
+          "Metadata" : "VARCHAR(100), Null, Unicode",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "CompanyName_AbsoluteName",
+          "TempOldColumnName" : "CompanyName_AbsoluteName",
+          "ColumnName" : "CompanyName_AbsoluteName",
+          "Length" : 100,
+          "MisFieldProperties" : "",
+          "DataType" : "VARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : true,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "VARCHAR(100), Null, Unicode",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "NAME_DT",
+          "TempOldColumnName" : "NAME_DT",
+          "ColumnName" : "NAME_DT",
+          "Length" : 100,
+          "MisFieldProperties" : "",
+          "DataType" : "VARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : true,
+          "Description" : "New",
+          "Signed" : false,
+          "Metadata" : "VARCHAR(15), Null, Unicode",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "MatchKeyWord1_AbsoluteName",
+          "TempOldColumnName" : "MatchKeyWord1_AbsoluteName",
+          "ColumnName" : "MatchKeyWord1_AbsoluteName",
+          "Length" : 15,
+          "MisFieldProperties" : "",
+          "DataType" : "VARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : true,
+          "Description" : "York",
+          "Signed" : false,
+          "Metadata" : "VARCHAR(15), Null, Unicode",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "MatchKeyWord2_AbsoluteName",
+          "TempOldColumnName" : "MatchKeyWord2_AbsoluteName",
+          "ColumnName" : "MatchKeyWord2_AbsoluteName",
+          "Length" : 15,
+          "MisFieldProperties" : "",
+          "DataType" : "VARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : true,
+          "Description" : "MatchKeyWord1NYSIIS",
+          "Signed" : false,
+          "Metadata" : "VARCHAR(8), Null, Unicode",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "MatchKeyWord1NYSIIS_AbsoluteName",
+          "TempOldColumnName" : "MatchKeyWord1NYSIIS_AbsoluteName",
+          "ColumnName" : "MatchKeyWord1NYSIIS_AbsoluteName",
+          "Length" : 8,
+          "MisFieldProperties" : "",
+          "DataType" : "VARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : true,
+          "Description" : "MatchKeyWord2NYSIIS",
+          "Signed" : false,
+          "Metadata" : "VARCHAR(8), Null, Unicode",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "MatchKeyWord2NYSIIS_AbsoluteName",
+          "TempOldColumnName" : "MatchKeyWord2NYSIIS_AbsoluteName",
+          "ColumnName" : "MatchKeyWord2NYSIIS_AbsoluteName",
+          "Length" : 8,
+          "MisFieldProperties" : "",
+          "DataType" : "VARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        } ],
+        "output_count" : 0,
+        "execmode" : "default_par",
+        "showCollType" : false,
+        "input_count" : 1,
+        "force" : " ",
+        "enableSchemalessDesign" : false,
+        "preserve" : -3,
+        "inputName" : "Link_20",
+        "showSortOptions" : false
+      }
+    }, {
+      "outputs" : [ {
+        "id" : "",
+        "app_data" : {
+          "ui_data" : {
+            "label" : "outPort",
+            "cardinality" : {
+              "min" : 0,
+              "max" : 1
+            }
+          }
+        }
+      } ],
+      "op" : "PxSequentialFile",
+      "inputs" : [ {
+        "links" : [ {
+          "node_id_ref" : "f87d95a2-12e8-40ed-9d4e-7c9149ca4df5",
+          "type_attr" : "PRIMARY",
+          "id" : "d31b876a-583d-4fb3-8a3b-2324a40839f2",
+          "app_data" : {
+            "ui_data" : {
+              "decorations" : [ {
+                "image" : "/data-intg/flows/graphics/flows/link-output-handle--default-selected.svg",
+                "temporary" : false,
+                "outline" : false,
+                "distance" : 0,
+                "x_pos" : -10,
+                "id" : "dec-3",
+                "position" : "source",
+                "y_pos" : -10,
+                "class_name" : "linkStartImage"
+              }, {
+                "image" : "/data-intg/flows/graphics/flows/link-marking--collection.svg",
+                "temporary" : false,
+                "outline" : false,
+                "distance" : 0,
+                "width" : 50,
+                "tooltip" : "Collection",
+                "x_pos" : -15,
+                "id" : "dec-9M",
+                "position" : "middle",
+                "y_pos" : 4,
+                "height" : 50
+              }, {
+                "temporary" : false,
+                "label_allow_return_key" : "save",
+                "label_single_line" : true,
+                "width" : 100,
+                "label_editable" : true,
+                "x_pos" : -18,
+                "id" : "dec-8",
+                "position" : "middle",
+                "label" : "Link_15",
+                "y_pos" : -20,
+                "height" : 80
+              } ],
+              "class_name" : "linkStyle__runMetricsLinkDefaultStyle___ixW31"
+            }
+          },
+          "link_name" : "Link_15",
+          "port_id_ref" : "f02b8d21-e488-4882-a303-0bef17ca2360"
+        } ],
+        "id" : "2c8b3e4a-4e8d-41d5-8e47-2bedffa091f3",
+        "app_data" : {
+          "ui_data" : {
+            "label" : "inPort",
+            "cardinality" : {
+              "min" : 0,
+              "max" : 1
+            }
+          }
+        },
+        "schema_ref" : "7df738fb-1f03-4f3c-a860-ba13f7b823d7",
+        "parameters" : {
+          "final_delim" : "end",
+          "showPartType" : false,
+          "null_field_sep_flag" : false,
+          "null_field" : "'NULL'",
+          "file_location" : "file_system",
+          "firstLineColumnNames" : "firstLineColumnNames",
+          "showCollType" : true,
+          "enableFlowAcpControl" : true,
+          "inputName" : "Link_15",
+          "showSortOptions" : false,
+          "append-overwrite" : "overwrite",
+          "rejects" : "continue",
+          "inputcolProperties" : [ {
+            "Description" : "",
+            "Signed" : false,
+            "Metadata" : "LONGVARCHAR(100), Null",
+            "Scale" : 0,
+            "TimeScale" : 0,
+            "OldColumnName" : "KODE_NASABAH",
+            "TempOldColumnName" : "KODE_NASABAH",
+            "ColumnName" : "KODE_NASABAH",
+            "Length" : 100,
+            "MisFieldProperties" : "",
+            "DataType" : "LONGVARCHAR",
+            "Key" : false,
+            "Nullable" : true
+          }, {
+            "Description" : "",
+            "Signed" : false,
+            "Metadata" : "LONGVARCHAR(100), Null",
+            "Scale" : 0,
+            "TimeScale" : 0,
+            "OldColumnName" : "NAMA_CUSTOMER",
+            "TempOldColumnName" : "NAMA_CUSTOMER",
+            "ColumnName" : "NAMA_CUSTOMER",
+            "Length" : 100,
+            "MisFieldProperties" : "",
+            "DataType" : "LONGVARCHAR",
+            "Key" : false,
+            "Nullable" : true
+          }, {
+            "Description" : "",
+            "Signed" : false,
+            "Metadata" : "LONGVARCHAR(100), Null",
+            "Scale" : 0,
+            "TimeScale" : 0,
+            "OldColumnName" : "NAMA_KATEGORI",
+            "TempOldColumnName" : "NAMA_KATEGORI",
+            "ColumnName" : "NAMA_KATEGORI",
+            "Length" : 100,
+            "MisFieldProperties" : "",
+            "DataType" : "LONGVARCHAR",
+            "Key" : false,
+            "Nullable" : true
+          }, {
+            "Description" : "",
+            "Signed" : false,
+            "Metadata" : "LONGVARCHAR(100), Null",
+            "Scale" : 0,
+            "TimeScale" : 0,
+            "OldColumnName" : "INTERCO_CD",
+            "TempOldColumnName" : "INTERCO_CD",
+            "ColumnName" : "INTERCO_CD",
+            "Length" : 100,
+            "MisFieldProperties" : "",
+            "DataType" : "LONGVARCHAR",
+            "Key" : false,
+            "Nullable" : true
+          }, {
+            "Unicode" : true,
+            "Description" : "AcronymOfKeywords",
+            "Signed" : false,
+            "Metadata" : "VARCHAR(10), Null, Unicode",
+            "Scale" : 0,
+            "TimeScale" : 0,
+            "OldColumnName" : "AcronymOfKeywords_AbsoluteName",
+            "TempOldColumnName" : "AcronymOfKeywords_AbsoluteName",
+            "ColumnName" : "AcronymOfKeywords_AbsoluteName",
+            "Length" : 10,
+            "MisFieldProperties" : "",
+            "DataType" : "VARCHAR",
+            "Key" : false,
+            "Nullable" : true
+          }, {
+            "Unicode" : true,
+            "Description" : "CompanyName",
+            "Signed" : false,
+            "Metadata" : "VARCHAR(100), Null, Unicode",
+            "Scale" : 0,
+            "TimeScale" : 0,
+            "OldColumnName" : "CompanyName_AbsoluteName",
+            "TempOldColumnName" : "CompanyName_AbsoluteName",
+            "ColumnName" : "CompanyName_AbsoluteName",
+            "Length" : 100,
+            "MisFieldProperties" : "",
+            "DataType" : "VARCHAR",
+            "Key" : false,
+            "Nullable" : true
+          }, {
+            "Unicode" : true,
+            "Description" : " ",
+            "Signed" : false,
+            "Metadata" : "VARCHAR(100), Null, Unicode",
+            "Scale" : 0,
+            "TimeScale" : 0,
+            "OldColumnName" : "NAME_DT",
+            "TempOldColumnName" : "NAME_DT",
+            "ColumnName" : "NAME_DT",
+            "Length" : 100,
+            "MisFieldProperties" : "",
+            "DataType" : "VARCHAR",
+            "Key" : false,
+            "Nullable" : true
+          }, {
+            "Unicode" : true,
+            "Description" : "New",
+            "Signed" : false,
+            "Metadata" : "VARCHAR(15), Null, Unicode",
+            "Scale" : 0,
+            "TimeScale" : 0,
+            "OldColumnName" : "MatchKeyWord1_AbsoluteName",
+            "TempOldColumnName" : "MatchKeyWord1_AbsoluteName",
+            "ColumnName" : "MatchKeyWord1_AbsoluteName",
+            "Length" : 15,
+            "MisFieldProperties" : "",
+            "DataType" : "VARCHAR",
+            "Key" : false,
+            "Nullable" : true
+          }, {
+            "Unicode" : true,
+            "Description" : "York",
+            "Signed" : false,
+            "Metadata" : "VARCHAR(15), Null, Unicode",
+            "Scale" : 0,
+            "TimeScale" : 0,
+            "OldColumnName" : "MatchKeyWord2_AbsoluteName",
+            "TempOldColumnName" : "MatchKeyWord2_AbsoluteName",
+            "ColumnName" : "MatchKeyWord2_AbsoluteName",
+            "Length" : 15,
+            "MisFieldProperties" : "",
+            "DataType" : "VARCHAR",
+            "Key" : false,
+            "Nullable" : true
+          }, {
+            "Unicode" : true,
+            "Description" : "MatchKeyWord1NYSIIS",
+            "Signed" : false,
+            "Metadata" : "VARCHAR(8), Null, Unicode",
+            "Scale" : 0,
+            "TimeScale" : 0,
+            "OldColumnName" : "MatchKeyWord1NYSIIS_AbsoluteName",
+            "TempOldColumnName" : "MatchKeyWord1NYSIIS_AbsoluteName",
+            "ColumnName" : "MatchKeyWord1NYSIIS_AbsoluteName",
+            "Length" : 8,
+            "MisFieldProperties" : "",
+            "DataType" : "VARCHAR",
+            "Key" : false,
+            "Nullable" : true
+          }, {
+            "Unicode" : true,
+            "Description" : "MatchKeyWord2NYSIIS",
+            "Signed" : false,
+            "Metadata" : "VARCHAR(8), Null, Unicode",
+            "Scale" : 0,
+            "TimeScale" : 0,
+            "OldColumnName" : "MatchKeyWord2NYSIIS_AbsoluteName",
+            "TempOldColumnName" : "MatchKeyWord2NYSIIS_AbsoluteName",
+            "ColumnName" : "MatchKeyWord2NYSIIS_AbsoluteName",
+            "Length" : 8,
+            "MisFieldProperties" : "",
+            "DataType" : "VARCHAR",
+            "Key" : false,
+            "Nullable" : true
+          } ],
+          "file" : [ "CUSTOMER_STANDARD.CSV" ],
+          "quote" : "double",
+          "connection_asset_id" : "",
+          "writemethod" : " ",
+          "nocleanup" : " ",
+          "dataAssetName" : "CUSTOMER_STANDARD.CSV",
+          "runtime_column_propagation" : 0,
+          "file_format" : "sequential",
+          "registerDataAsset" : true,
+          "delim" : "','"
+        }
+      } ],
+      "id" : "44fa4719-0a0c-4f0f-8192-31b234ec9105",
+      "type" : "binding",
+      "app_data" : {
+        "ui_data" : {
+          "image" : "/data-intg/flows/graphics/palette/PxSequentialFile.svg",
+          "x_pos" : 1172.16,
+          "label" : "Sequential_file_2",
+          "y_pos" : 285.12
+        }
+      },
+      "parameters" : {
+        "combinability" : "auto",
+        "output_count" : 0,
+        "nls_map_name" : "UTF-8",
+        "input_count" : 1,
+        "execmode" : "default_seq"
+      }
+    }, {
+      "outputs" : [ {
+        "id" : "c65ac48d-02ef-47bb-a1c4-0865742ec949",
+        "app_data" : {
+          "datastage" : {
+            "is_source_of_link" : "4c200eae-316c-4c9c-84fa-fd39d2a9ea14"
+          },
+          "ui_data" : {
+            "label" : "outPort",
+            "cardinality" : {
+              "min" : 1,
+              "max" : 2147483647
+            }
+          },
+          "additionalProperties" : {
+            "enableAcp" : true
+          }
+        },
+        "schema_ref" : "3c7e7ee2-c072-4641-a42b-9c2c4a56e538",
+        "parameters" : {
+          "outputName" : "Link_31",
+          "valueDerivation" : [ {
+            "parsedExpression" : "NullToEmpty(Link_18.MatchKeyWord1_AbsoluteName) :' ':NullToEmpty(Link_18.MatchKeyWord2_AbsoluteName)",
+            "columnName" : "CompanyName_AbsoluteName"
+          }, {
+            "parsedExpression" : "NullToEmpty(Link_18.MatchKeyWord1_AbsoluteName) :' ':NullToEmpty(Link_18.MatchKeyWord2_AbsoluteName)",
+            "columnName" : "NAME_DT"
+          } ],
+          "buf_mode" : "default"
+        }
+      } ],
+      "op" : "CTransformerStage",
+      "inputs" : [ {
+        "links" : [ {
+          "node_id_ref" : "cf88fee7-60a9-4b95-afc8-4c4f7b970b31",
+          "type_attr" : "PRIMARY",
+          "id" : "38017f91-36b5-46ed-886a-f59c89d21361",
+          "app_data" : {
+            "datastage" : { },
+            "ui_data" : {
+              "decorations" : [ {
+                "image" : "/data-intg/flows/graphics/flows/link-output-handle--default-selected.svg",
+                "temporary" : false,
+                "outline" : false,
+                "distance" : 0,
+                "x_pos" : -10,
+                "id" : "dec-3",
+                "position" : "source",
+                "y_pos" : -10,
+                "class_name" : "linkStartImage"
+              }, {
+                "image" : "/data-intg/flows/graphics/flows/link-marking--auto-partitioning.svg",
+                "temporary" : false,
+                "outline" : false,
+                "distance" : 2,
+                "width" : 50,
+                "tooltip" : "Auto-partition",
+                "x_pos" : -15,
+                "id" : "dec-6R",
+                "position" : "middle",
+                "y_pos" : 4,
+                "height" : 50
+              }, {
+                "temporary" : false,
+                "label_allow_return_key" : "save",
+                "label_single_line" : true,
+                "width" : 100,
+                "label_editable" : true,
+                "x_pos" : -18,
+                "id" : "dec-8",
+                "position" : "middle",
+                "label" : "Link_18",
+                "y_pos" : -20,
+                "height" : 80
+              } ],
+              "class_name" : "linkStyle__runMetricsLinkDefaultStyle___ixW31"
+            }
+          },
+          "link_name" : "Link_18",
+          "port_id_ref" : "b3db4f79-5ba0-4b3b-a29f-7bb319d6ecf7"
+        } ],
+        "id" : "c8f53263-ca86-4017-9a9e-e9227054a8bc",
+        "app_data" : {
+          "ui_data" : {
+            "label" : "inPort",
+            "cardinality" : {
+              "min" : 1,
+              "max" : 1
+            }
+          }
+        },
+        "schema_ref" : "d274bad7-a221-4cd0-979f-8914c3b98695",
+        "parameters" : {
+          "keyColsPart" : [ ],
+          "perform_sort" : false,
+          "runtime_column_propagation" : 0
+        }
+      } ],
+      "id" : "0e6dd2b8-0fef-46d9-8856-c82ebd224a2c",
+      "type" : "execution_node",
+      "app_data" : {
+        "datastage" : {
+          "inputs_order" : "c8f53263-ca86-4017-9a9e-e9227054a8bc",
+          "outputs_order" : "c65ac48d-02ef-47bb-a1c4-0865742ec949"
+        },
+        "ui_data" : {
+          "image" : "/data-intg/flows/graphics/palette/CTransformerStage.svg",
+          "x_pos" : 586.08,
+          "label" : "Transformer_3",
+          "y_pos" : 205.92
+        }
+      },
+      "parameters" : {
+        "combinability" : "auto",
+        "OutputlinkOrderingList" : [ {
+          "link_label" : "0",
+          "link_name" : "Link_31"
+        } ],
+        "InputlinkOrderingList" : [ {
+          "link_label" : "0",
+          "link_name" : "Link_18"
+        } ],
+        "output_count" : 1,
+        "BlockSizeSelectedType" : "systemSelected",
+        "StageVariables" : [ ],
+        "input_count" : 1,
+        "execmode" : "default_par",
+        "Triggers" : [ ],
+        "preserve" : -3,
+        "LoopVariables" : [ ],
+        "SKKeySourceType" : "file"
+      }
+    }, {
+      "outputs" : [ {
+        "id" : "b3db4f79-5ba0-4b3b-a29f-7bb319d6ecf7",
+        "app_data" : {
+          "datastage" : {
+            "is_source_of_link" : "38017f91-36b5-46ed-886a-f59c89d21361"
+          },
+          "ui_data" : {
+            "label" : "outPort",
+            "cardinality" : {
+              "min" : 1,
+              "max" : 1
+            }
+          },
+          "additionalProperties" : {
+            "enableAcp" : true
+          }
+        },
+        "schema_ref" : "d274bad7-a221-4cd0-979f-8914c3b98695",
+        "parameters" : {
+          "valueDerivation" : [ {
+            "parsedExpression" : "Standardize(CompanyName_AbsoluteName)",
+            "columnName" : "CompanyName_AbsoluteName",
+            "sourceColumn" : "Link_3.CompanyName_AbsoluteName"
+          }, {
+            "parsedExpression" : "Standardize(AcronymOfKeywords_AbsoluteName)",
+            "columnName" : "AcronymOfKeywords_AbsoluteName",
+            "sourceColumn" : "Link_3.AcronymOfKeywords_AbsoluteName"
+          }, {
+            "parsedExpression" : "Standardize(MatchKeyWord1_AbsoluteName)",
+            "columnName" : "MatchKeyWord1_AbsoluteName",
+            "sourceColumn" : "Link_3.MatchKeyWord1_AbsoluteName"
+          }, {
+            "parsedExpression" : "Standardize(MatchKeyWord2_AbsoluteName)",
+            "columnName" : "MatchKeyWord2_AbsoluteName",
+            "sourceColumn" : "Link_3.MatchKeyWord2_AbsoluteName"
+          }, {
+            "parsedExpression" : "Standardize(MatchKeyWord1NYSIIS_AbsoluteName)",
+            "columnName" : "MatchKeyWord1NYSIIS_AbsoluteName",
+            "sourceColumn" : "Link_3.MatchKeyWord1NYSIIS_AbsoluteName"
+          }, {
+            "parsedExpression" : "Standardize(MatchKeyWord2NYSIIS_AbsoluteName)",
+            "columnName" : "MatchKeyWord2NYSIIS_AbsoluteName",
+            "sourceColumn" : "Link_3.MatchKeyWord2NYSIIS_AbsoluteName"
+          } ],
+          "buf_mode" : "default"
+        }
+      } ],
+      "op" : "Standardize",
+      "inputs" : [ {
+        "links" : [ {
+          "node_id_ref" : "70e2c984-0b8a-4286-a84a-14e7f4f1b1f1",
+          "type_attr" : "PRIMARY",
+          "id" : "4d0e74b1-5843-4318-b9bb-6e7f5d91e053",
+          "app_data" : {
+            "datastage" : { },
+            "ui_data" : {
+              "decorations" : [ {
+                "image" : "/data-intg/flows/graphics/flows/link-output-handle--default-selected.svg",
+                "temporary" : false,
+                "outline" : false,
+                "distance" : 0,
+                "x_pos" : -10,
+                "id" : "dec-3",
+                "position" : "source",
+                "y_pos" : -10,
+                "class_name" : "linkStartImage"
+              }, {
+                "image" : "/data-intg/flows/graphics/flows/link-marking--auto-partitioning.svg",
+                "temporary" : false,
+                "outline" : false,
+                "distance" : 2,
+                "width" : 50,
+                "tooltip" : "Auto-partition",
+                "x_pos" : -15,
+                "id" : "dec-6R",
+                "position" : "middle",
+                "y_pos" : 4,
+                "height" : 50
+              }, {
+                "temporary" : false,
+                "label_allow_return_key" : "save",
+                "label_single_line" : true,
+                "width" : 100,
+                "label_editable" : true,
+                "x_pos" : -18,
+                "id" : "dec-8",
+                "position" : "middle",
+                "label" : "Link_3",
+                "y_pos" : -20,
+                "height" : 80
+              } ],
+              "class_name" : "linkStyle__runMetricsLinkDefaultStyle___ixW31"
+            }
+          },
+          "link_name" : "Link_3",
+          "port_id_ref" : "f9c8db1c-bd04-4221-b895-fa9f930af933"
+        } ],
+        "id" : "87429a35-8f7d-452c-a177-c89fda4525f9",
+        "app_data" : {
+          "ui_data" : {
+            "label" : "inPort",
+            "cardinality" : {
+              "min" : 1,
+              "max" : 1
+            }
+          }
+        },
+        "schema_ref" : "21b662b1-285a-470f-ae3c-9d6482f4a805",
+        "parameters" : {
+          "runtime_column_propagation" : 0
+        }
+      } ],
+      "id" : "cf88fee7-60a9-4b95-afc8-4c4f7b970b31",
+      "type" : "execution_node",
+      "app_data" : {
+        "ui_data" : {
+          "image" : "/data-intg/flows/graphics/palette/Standardize.svg",
+          "x_pos" : 300.96,
+          "label" : "Standardize_3",
+          "y_pos" : 205.92
+        }
+      },
+      "parameters" : {
+        "showPartType" : true,
+        "showCollType" : false,
+        "ruleset" : "",
+        "rulesetProperties" : [ {
+          "metadata" : [ {
+            "expression" : "Standardize(CompanyName_AbsoluteName)",
+            "name" : "CompanyName_AbsoluteName",
+            "length" : 100,
+            "type" : "VARCHAR",
+            "desc" : "CompanyName"
+          }, {
+            "expression" : "Standardize(NumberOfWords_AbsoluteName)",
+            "name" : "NumberOfWords_AbsoluteName",
+            "length" : 1,
+            "type" : "VARCHAR",
+            "desc" : "NumberOfWords"
+          }, {
+            "expression" : "Standardize(AcronymOfKeywords_AbsoluteName)",
+            "name" : "AcronymOfKeywords_AbsoluteName",
+            "length" : 10,
+            "type" : "VARCHAR",
+            "desc" : "AcronymOfKeywords"
+          }, {
+            "expression" : "Standardize(MatchKeyWord1_AbsoluteName)",
+            "name" : "MatchKeyWord1_AbsoluteName",
+            "length" : 15,
+            "type" : "VARCHAR",
+            "desc" : "New"
+          }, {
+            "expression" : "Standardize(MatchKeyWord2_AbsoluteName)",
+            "name" : "MatchKeyWord2_AbsoluteName",
+            "length" : 15,
+            "type" : "VARCHAR",
+            "desc" : "York"
+          }, {
+            "expression" : "Standardize(MatchKeyWord3_AbsoluteName)",
+            "name" : "MatchKeyWord3_AbsoluteName",
+            "length" : 15,
+            "type" : "VARCHAR",
+            "desc" : "Department"
+          }, {
+            "expression" : "Standardize(MatchKeyWord4_AbsoluteName)",
+            "name" : "MatchKeyWord4_AbsoluteName",
+            "length" : 15,
+            "type" : "VARCHAR",
+            "desc" : "Motor"
+          }, {
+            "expression" : "Standardize(MatchKeyWord5_AbsoluteName)",
+            "name" : "MatchKeyWord5_AbsoluteName",
+            "length" : 15,
+            "type" : "VARCHAR",
+            "desc" : "Vehicles"
+          }, {
+            "expression" : "Standardize(MatchKeyWord6_AbsoluteName)",
+            "name" : "MatchKeyWord6_AbsoluteName",
+            "length" : 15,
+            "type" : "VARCHAR",
+            "desc" : "State"
+          }, {
+            "expression" : "Standardize(MatchKeyWord7_AbsoluteName)",
+            "name" : "MatchKeyWord7_AbsoluteName",
+            "length" : 15,
+            "type" : "VARCHAR",
+            "desc" : "Investigation"
+          }, {
+            "expression" : "Standardize(MatchKeyWord8_AbsoluteName)",
+            "name" : "MatchKeyWord8_AbsoluteName",
+            "length" : 15,
+            "type" : "VARCHAR",
+            "desc" : "Div"
+          }, {
+            "expression" : "Standardize(MatchKeyWord1NYSIIS_AbsoluteName)",
+            "name" : "MatchKeyWord1NYSIIS_AbsoluteName",
+            "length" : 8,
+            "type" : "VARCHAR",
+            "desc" : "MatchKeyWord1NYSIIS"
+          }, {
+            "expression" : "Standardize(MatchKeyWord2NYSIIS_AbsoluteName)",
+            "name" : "MatchKeyWord2NYSIIS_AbsoluteName",
+            "length" : 8,
+            "type" : "VARCHAR",
+            "desc" : "MatchKeyWord2NYSIIS"
+          }, {
+            "expression" : "Standardize(TradeName_AbsoluteName)",
+            "name" : "TradeName_AbsoluteName",
+            "length" : 30,
+            "type" : "VARCHAR",
+            "desc" : "TradeName"
+          }, {
+            "expression" : "Standardize(StateOrgNum_AbsoluteName)",
+            "name" : "StateOrgNum_AbsoluteName",
+            "length" : 15,
+            "type" : "VARCHAR",
+            "desc" : "StateOrgNum"
+          }, {
+            "expression" : "Standardize(FranchiseNumber_AbsoluteName)",
+            "name" : "FranchiseNumber_AbsoluteName",
+            "length" : 10,
+            "type" : "VARCHAR",
+            "desc" : "FranchiseNumber"
+          }, {
+            "expression" : "Standardize(Division_AbsoluteName)",
+            "name" : "Division_AbsoluteName",
+            "length" : 30,
+            "type" : "VARCHAR",
+            "desc" : "Division"
+          }, {
+            "expression" : "Standardize(AccountInfo_AbsoluteName)",
+            "name" : "AccountInfo_AbsoluteName",
+            "length" : 30,
+            "type" : "VARCHAR",
+            "desc" : "AccountInfo"
+          }, {
+            "expression" : "Standardize(CorpDate_AbsoluteName)",
+            "name" : "CorpDate_AbsoluteName",
+            "length" : 8,
+            "type" : "VARCHAR",
+            "desc" : "CorpDate"
+          }, {
+            "expression" : "Standardize(UnknownWords_AbsoluteName)",
+            "name" : "UnknownWords_AbsoluteName",
+            "length" : 15,
+            "type" : "VARCHAR",
+            "desc" : "UnknownWords"
+          }, {
+            "expression" : "Standardize(UnhandledPattern_AbsoluteName)",
+            "name" : "UnhandledPattern_AbsoluteName",
+            "length" : 10,
+            "type" : "VARCHAR",
+            "desc" : "UnhandledPattern"
+          }, {
+            "expression" : "Standardize(UnhandledData_AbsoluteName)",
+            "name" : "UnhandledData_AbsoluteName",
+            "length" : 20,
+            "type" : "VARCHAR",
+            "desc" : "UnhandledData"
+          }, {
+            "expression" : "Standardize(ExceptionData_AbsoluteName)",
+            "name" : "ExceptionData_AbsoluteName",
+            "length" : 10,
+            "type" : "VARCHAR",
+            "desc" : "ExceptionData"
+          }, {
+            "expression" : "Standardize(InputPattern_AbsoluteName)",
+            "name" : "InputPattern_AbsoluteName",
+            "length" : 10,
+            "type" : "VARCHAR",
+            "desc" : "InputPattern"
+          }, {
+            "expression" : "Standardize(InvalidData_AbsoluteName)",
+            "name" : "InvalidData_AbsoluteName",
+            "length" : 10,
+            "type" : "VARCHAR",
+            "desc" : "InvalidData"
+          }, {
+            "expression" : "Standardize(InvalidReason_AbsoluteName)",
+            "name" : "InvalidReason_AbsoluteName",
+            "length" : 2,
+            "type" : "VARCHAR",
+            "desc" : "InvalidReason"
+          }, {
+            "expression" : "Standardize(UserOverrideFlag_AbsoluteName)",
+            "name" : "UserOverrideFlag_AbsoluteName",
+            "length" : 2,
+            "type" : "VARCHAR",
+            "desc" : "UserOverrideFlag"
+          } ],
+          "field" : "NAMA_CUSTOMER_NEW",
+          "preLiteral" : "",
+          "columnsString" : "NAMA_CUSTOMER_NEW",
+          "ruleset" : "AbsoluteName",
+          "optionMap" : [ ],
+          "location" : "./Customized Standardization Rules/Other Standardization Rules/AbsoluteName",
+          "postLiteral" : "",
+          "asset_id" : "2bc96f09-98d8-45f2-b075-8a367595c31d"
+        } ],
+        "preserve" : -3,
+        "inputName" : "Link_3",
+        "showSortOptions" : false,
+        "combinability" : "auto",
+        "inputcolProperties" : [ {
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "LONGVARCHAR(100), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "KODE_NASABAH",
+          "TempOldColumnName" : "KODE_NASABAH",
+          "ColumnName" : "KODE_NASABAH",
+          "Length" : 100,
+          "MisFieldProperties" : "",
+          "DataType" : "LONGVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "LONGVARCHAR(100), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "NAMA_CUSTOMER",
+          "TempOldColumnName" : "NAMA_CUSTOMER",
+          "ColumnName" : "NAMA_CUSTOMER",
+          "Length" : 100,
+          "MisFieldProperties" : "",
+          "DataType" : "LONGVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : "",
+          "Signed" : false,
+          "Metadata" : "LONGVARCHAR(100), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "NAMA_CUSTOMER_NEW",
+          "TempOldColumnName" : "NAMA_CUSTOMER_NEW",
+          "ColumnName" : "NAMA_CUSTOMER_NEW",
+          "Length" : 100,
+          "MisFieldProperties" : "",
+          "DataType" : "LONGVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "LONGVARCHAR(100), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "NAMA_KATEGORI",
+          "TempOldColumnName" : "NAMA_KATEGORI",
+          "ColumnName" : "NAMA_KATEGORI",
+          "Length" : 100,
+          "MisFieldProperties" : "",
+          "DataType" : "LONGVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "LONGVARCHAR(100), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "INTERCO_CD",
+          "TempOldColumnName" : "INTERCO_CD",
+          "ColumnName" : "INTERCO_CD",
+          "Length" : 100,
+          "MisFieldProperties" : "",
+          "DataType" : "LONGVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        } ],
+        "workdir" : "rule_set/Customized Standardization Rules/Other Standardization Rules/AbsoluteName",
+        "output_count" : 1,
+        "execmode" : "default_par",
+        "input_count" : 1,
+        "traceProperties" : [ ],
+        "case" : "UPPERALL"
+      }
+    }, {
+      "outputs" : [ {
+        "id" : "f9c8db1c-bd04-4221-b895-fa9f930af933",
+        "app_data" : {
+          "datastage" : {
+            "is_source_of_link" : "4d0e74b1-5843-4318-b9bb-6e7f5d91e053"
+          },
+          "ui_data" : {
+            "label" : "outPort",
+            "cardinality" : {
+              "min" : 0,
+              "max" : 1
+            }
+          },
+          "additionalProperties" : {
+            "enableAcp" : true
+          }
+        },
+        "schema_ref" : "21b662b1-285a-470f-ae3c-9d6482f4a805",
+        "parameters" : {
+          "buf_mode" : "default"
+        }
+      } ],
+      "op" : "bigqueryPX",
+      "inputs" : [ {
+        "id" : "",
+        "app_data" : {
+          "ui_data" : {
+            "label" : "inPort",
+            "cardinality" : {
+              "min" : 0,
+              "max" : 1
+            }
+          }
+        },
+        "parameters" : {
+          "part_coll" : "part_type"
+        }
+      } ],
+      "connection" : {
+        "ref" : "54719232-7cd0-42dd-98cf-f76b8f8716d2",
+        "project_ref" : "16ce275c-c722-4e5b-b278-a8b54176b58d",
+        "properties" : {
+          "_java._heap_size" : 256,
+          "currentOutputLinkType" : "PRIMARY",
+          "before_after.after_node" : "",
+          "before_after.before_node.fail_on_error" : true,
+          "outputAcpShouldHide" : true,
+          "partitioned" : false,
+          "before_after.before_node.read_from_file_before_sql_node" : false,
+          "select_statement" : "WITH CTE AS (\n    SELECT *,\n        CASE\n            WHEN REGEXP_CONTAINS(NAMA_CUSTOMER, r'AND/OR|TBK|QQ|CMC|KANWIL|DIVISI|PROPINSI|PROVINSI|CAPEM|CABANG PEMBANTU|CABANG|CAB|AREA|CONSUMER|MBU|MMU|COMMERCIAL|RETAIL|CBG|BRANCH|-|/') THEN\n                REGEXP_EXTRACT(NAMA_CUSTOMER, r'(AND/OR|TBK|QQ|CMC|KANWIL|DIVISI|PROPINSI|PROVINSI|CAPEM|CABANG PEMBANTU|CABANG|CAB|AREA|CONSUMER|MBU|MMU|COMMERCIAL|RETAIL|CBG|BRANCH|-|/)')\n            ELSE\n                NAMA_CUSTOMER  -- Return the full name if no match is found\n        END AS delimiter,\n         -- Extract the part of the name *before* the delimiter\n        CASE\n            WHEN REGEXP_CONTAINS(NAMA_CUSTOMER, r'AND/OR|TBK|QQ|CMC|KANWIL|DIVISI|PROPINSI|PROVINSI|CAPEM|CABANG PEMBANTU|CABANG|CAB|AREA|CONSUMER|MBU|MMU|COMMERCIAL|RETAIL|CBG|BRANCH|-|/') THEN\n                TRIM(SUBSTR(NAMA_CUSTOMER, 1, REGEXP_INSTR(NAMA_CUSTOMER, r'AND/OR|TBK|QQ|CMC|KANWIL|DIVISI|PROPINSI|PROVINSI|CAPEM|CABANG PEMBANTU|CABANG|CAB|AREA|CONSUMER|MBU|MMU|COMMERCIAL|RETAIL|CBG|BRANCH|-|/') - 1))\n            ELSE\n                NAMA_CUSTOMER\n        END AS NAMA_CUSTOMER_FIX\n    FROM `eternal-synapse-401311.POC.Customer`\nwhere nama_kategori <> 'PERSEORANGAN'\n    \n)\n\nSELECT \n    KODE_NASABAH,\n    CTE.NAMA_CUSTOMER,\n    CASE \n        -- WHEN NAMA_CUSTOMER_FIX LIKE '%BRI%' THEN 'BANK RAKYAT INDONESIA' \n        -- WHEN NAMA_CUSTOMER_FIX LIKE '%BCA%' THEN 'BANK CENTRAL ASIA' \n        -- WHEN NAMA_CUSTOMER_FIX LIKE '%BNI%' THEN 'BANK NEGARA INDONESIA' \n        -- WHEN NAMA_CUSTOMER_FIX LIKE '%BTN%' THEN 'BANK TABUNGAN NEGARA' \n        -- WHEN NAMA_CUSTOMER_FIX LIKE '%PLN%' THEN 'PERUSAHAAN LISTRIK NEGARA' \n        WHEN UPPER(NAMA_CUSTOMER_FIX) like '%BNI%'  THEN 'Bank Negara Indonesia'\n        WHEN UPPER(NAMA_CUSTOMER_FIX) like '%BRI%'  THEN 'Bank Rakyat Indonesia'\n        WHEN UPPER(NAMA_CUSTOMER_FIX) like '%BCA%'  THEN 'Bank Central Asia'\n        WHEN UPPER(NAMA_CUSTOMER_FIX) like '%BTN%'  THEN 'Bank Tabungan Negara'\n        WHEN UPPER(NAMA_CUSTOMER_FIX) like '%BTPN%' THEN 'Bank Tabungan Pensiunan Nasional'\n        WHEN UPPER(NAMA_CUSTOMER_FIX) LIKE '%JAMKRINDO%' THEN 'Jaminan Kredit Indonesia'\n        WHEN UPPER(NAMA_CUSTOMER_FIX) LIKE '%ASKRINDO%' THEN 'Asuransi Kredit Indonesia'\n        WHEN UPPER(NAMA_CUSTOMER_FIX) LIKE '%JASINDO%' THEN 'Asuransi Jasa Indonesia'\n        WHEN UPPER(NAMA_CUSTOMER_FIX) LIKE '%REASURANSI INDONESIA%' THEN 'Reasuransi Indonesia Utama'\n        WHEN UPPER(NAMA_CUSTOMER_FIX) LIKE '%ASEI%' THEN 'Asuransi Asei Indonesia'\n        WHEN UPPER(NAMA_CUSTOMER_FIX) LIKE '%JIWASRAYA%' THEN 'Asuransi Jiwasraya'\n        WHEN UPPER(NAMA_CUSTOMER_FIX) LIKE '%PLN%' THEN 'Perusahaan Listrik Negara'\n        WHEN UPPER(NAMA_CUSTOMER_FIX) LIKE '%BPD%' THEN 'Bank Pembangunan Daerah'\n        WHEN UPPER(NAMA_CUSTOMER_FIX) LIKE '%BPR%' THEN 'Bank Perkreditan Rakyat'\n        ELSE NAMA_CUSTOMER_FIX  -- Use the fixed name here\n    END AS NAMA_CUSTOMER_NEW,\n    NAMA_KATEGORI,\n    INTERCO_CD\nFROM CTE\nORDER BY NAMA_CUSTOMER;",
+          "enableSchemalessDesign" : false,
+          "before_after.after_node.read_from_file_after_sql_node" : false,
+          "before_after.before" : "",
+          "node_number" : 0,
+          "generate_unicode_columns" : false,
+          "before_after.after" : "",
+          "node_count" : 1,
+          "before_after.after_node.fail_on_error" : true,
+          "before_after.before_node" : "",
+          "enableFlowAcpControl" : true,
+          "before_after.after.read_from_file_after_sql" : false,
+          "before_after.before.read_from_file_before_sql" : false,
+          "before_after.before.fail_on_error" : true,
+          "read_mode" : "select",
+          "select_statement.read_from_file_select" : false,
+          "valueDerivation" : [ ],
+          "before_after.after.fail_on_error" : true,
+          "use_gcs_staging" : false,
+          "procParamProperties" : [ ]
+        },
+        "name" : "BigQuery_Ishar"
+      },
+      "id" : "70e2c984-0b8a-4286-a84a-14e7f4f1b1f1",
+      "type" : "binding",
+      "app_data" : {
+        "ui_data" : {
+          "image" : "/data-intg/flows/graphics/palette/bigqueryPX.svg",
+          "x_pos" : 47.519999999999996,
+          "label" : "Perusahaan",
+          "y_pos" : 205.92
+        }
+      },
+      "parameters" : {
+        "combinability" : "auto",
+        "spparam" : [ ],
+        "output_count" : 1,
+        "input_count" : 0,
+        "execmode" : "default_par",
+        "preserve" : -3
+      }
+    }, {
+      "outputs" : [ {
+        "id" : "",
+        "app_data" : {
+          "ui_data" : {
+            "label" : "outPort",
+            "cardinality" : {
+              "min" : 0,
+              "max" : 1
+            }
+          }
+        }
+      } ],
+      "op" : "bigqueryPX",
+      "inputs" : [ {
+        "links" : [ {
+          "node_id_ref" : "f87d95a2-12e8-40ed-9d4e-7c9149ca4df5",
+          "type_attr" : "PRIMARY",
+          "id" : "86a905e5-27f9-417e-b69e-8e32d2337826",
+          "app_data" : {
+            "datastage" : { },
+            "ui_data" : {
+              "decorations" : [ {
+                "image" : "/data-intg/flows/graphics/flows/link-output-handle--default-selected.svg",
+                "temporary" : false,
+                "outline" : false,
+                "distance" : 0,
+                "x_pos" : -10,
+                "id" : "dec-3",
+                "position" : "source",
+                "y_pos" : -10,
+                "class_name" : "linkStartImage"
+              }, {
+                "image" : "/data-intg/flows/graphics/flows/link-marking--auto-partitioning.svg",
+                "temporary" : false,
+                "outline" : false,
+                "distance" : 2,
+                "width" : 50,
+                "tooltip" : "Auto-partition",
+                "x_pos" : -15,
+                "id" : "dec-6R",
+                "position" : "middle",
+                "y_pos" : 4,
+                "height" : 50
+              }, {
+                "temporary" : false,
+                "label_allow_return_key" : "save",
+                "label_single_line" : true,
+                "width" : 100,
+                "label_editable" : true,
+                "x_pos" : -18,
+                "id" : "dec-8",
+                "position" : "middle",
+                "label" : "Link_10",
+                "y_pos" : -20,
+                "height" : 80
+              } ],
+              "class_name" : "linkStyle__runMetricsLinkDefaultStyle___ixW31"
+            }
+          },
+          "link_name" : "Link_10",
+          "port_id_ref" : "69772a1f-d876-4cda-a86b-a877a70ba556"
+        } ],
+        "id" : "966f307a-5e11-43bf-9503-8bbce7395df2",
+        "app_data" : {
+          "ui_data" : {
+            "label" : "inPort",
+            "cardinality" : {
+              "min" : 0,
+              "max" : 1
+            }
+          }
+        },
+        "schema_ref" : "836783c7-bd28-4f7b-8749-13803387bec2",
+        "parameters" : {
+          "runtime_column_propagation" : 0
+        }
+      } ],
+      "connection" : {
+        "ref" : "54719232-7cd0-42dd-98cf-f76b8f8716d2",
+        "project_ref" : "16ce275c-c722-4e5b-b278-a8b54176b58d",
+        "properties" : {
+          "_java._heap_size" : 256,
+          "currentOutputLinkType" : "PRIMARY",
+          "before_after.after_node" : "",
+          "before_after.before_node.fail_on_error" : true,
+          "outputAcpShouldHide" : false,
+          "before_after.before_node.read_from_file_before_sql_node" : false,
+          "before_after.after_node.read_from_file_after_sql_node" : false,
+          "table_name" : "Customer_Standard",
+          "before_after.before" : "",
+          "inputName" : "Link_10",
+          "write_mode" : "insert_only",
+          "node_number" : 0,
+          "before_after.after" : "",
+          "node_count" : 1,
+          "table_action" : "truncate",
+          "registerDataAsset" : false,
+          "showPartType" : true,
+          "before_after.after_node.fail_on_error" : true,
+          "database_name" : "eternal-synapse-401311",
+          "showCollType" : false,
+          "before_after.before_node" : "",
+          "enableFlowAcpControl" : true,
+          "part_type" : "auto",
+          "schema_name" : "POC",
+          "before_after.after.read_from_file_after_sql" : false,
+          "showSortOptions" : false,
+          "before_after.before.read_from_file_before_sql" : false,
+          "before_after.before.fail_on_error" : true,
+          "before_after.after.fail_on_error" : true,
+          "procParamProperties" : [ ]
+        },
+        "name" : "BigQuery_Ishar"
+      },
+      "id" : "23f77a70-e821-47be-a102-0194bd71b5b3",
+      "type" : "binding",
+      "app_data" : {
+        "ui_data" : {
+          "image" : "/data-intg/flows/graphics/palette/bigqueryPX.svg",
+          "x_pos" : 1188,
+          "label" : "POC_1",
+          "y_pos" : 79.2
+        }
+      },
+      "parameters" : {
+        "combinability" : "auto",
+        "inputcolProperties" : [ {
+          "TempOldColumnName" : "KODE_NASABAH",
+          "ColumnName" : "KODE_NASABAH",
+          "Description" : " ",
+          "Length" : 100,
+          "Signed" : false,
+          "Metadata" : "LONGVARCHAR(100), Null",
+          "DataType" : "LONGVARCHAR",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "Key" : false,
+          "Nullable" : true,
+          "OldColumnName" : "KODE_NASABAH"
+        }, {
+          "TempOldColumnName" : "NAMA_CUSTOMER",
+          "ColumnName" : "NAMA_CUSTOMER",
+          "Description" : " ",
+          "Length" : 100,
+          "Signed" : false,
+          "Metadata" : "LONGVARCHAR(100), Null",
+          "DataType" : "LONGVARCHAR",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "Key" : false,
+          "Nullable" : true,
+          "OldColumnName" : "NAMA_CUSTOMER"
+        }, {
+          "TempOldColumnName" : "NAMA_KATEGORI",
+          "ColumnName" : "NAMA_KATEGORI",
+          "Description" : " ",
+          "Length" : 100,
+          "Signed" : false,
+          "Metadata" : "LONGVARCHAR(100), Null",
+          "DataType" : "LONGVARCHAR",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "Key" : false,
+          "Nullable" : true,
+          "OldColumnName" : "NAMA_KATEGORI"
+        }, {
+          "TempOldColumnName" : "INTERCO_CD",
+          "ColumnName" : "INTERCO_CD",
+          "Description" : " ",
+          "Length" : 100,
+          "Signed" : false,
+          "Metadata" : "LONGVARCHAR(100), Null",
+          "DataType" : "LONGVARCHAR",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "Key" : false,
+          "Nullable" : true,
+          "OldColumnName" : "INTERCO_CD"
+        }, {
+          "Unicode" : true,
+          "Description" : "CompanyName",
+          "Signed" : false,
+          "Metadata" : "VARCHAR(100), Null, Unicode",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "CompanyName_AbsoluteName",
+          "TempOldColumnName" : "CompanyName_AbsoluteName",
+          "ColumnName" : "CompanyName_AbsoluteName",
+          "Length" : 100,
+          "DataType" : "VARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "VARCHAR(100)",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "NAME_DT",
+          "TempOldColumnName" : "NAME_DT",
+          "ColumnName" : "NAME_DT",
+          "Length" : 100,
+          "DataType" : "VARCHAR",
+          "Key" : false,
+          "Nullable" : false
+        }, {
+          "Unicode" : true,
+          "Description" : "AcronymOfKeywords",
+          "Signed" : false,
+          "Metadata" : "VARCHAR(10), Null, Unicode",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "AcronymOfKeywords_AbsoluteName",
+          "TempOldColumnName" : "AcronymOfKeywords_AbsoluteName",
+          "ColumnName" : "AcronymOfKeywords_AbsoluteName",
+          "Length" : 10,
+          "DataType" : "VARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : true,
+          "Description" : "New",
+          "Signed" : false,
+          "Metadata" : "VARCHAR(15), Null, Unicode",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "MatchKeyWord1_AbsoluteName",
+          "TempOldColumnName" : "MatchKeyWord1_AbsoluteName",
+          "ColumnName" : "MatchKeyWord1_AbsoluteName",
+          "Length" : 15,
+          "DataType" : "VARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : true,
+          "Description" : "York",
+          "Signed" : false,
+          "Metadata" : "VARCHAR(15), Null, Unicode",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "MatchKeyWord2_AbsoluteName",
+          "TempOldColumnName" : "MatchKeyWord2_AbsoluteName",
+          "ColumnName" : "MatchKeyWord2_AbsoluteName",
+          "Length" : 15,
+          "DataType" : "VARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : true,
+          "Description" : "MatchKeyWord1NYSIIS",
+          "Signed" : false,
+          "Metadata" : "VARCHAR(8), Null, Unicode",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "MatchKeyWord1NYSIIS_AbsoluteName",
+          "TempOldColumnName" : "MatchKeyWord1NYSIIS_AbsoluteName",
+          "ColumnName" : "MatchKeyWord1NYSIIS_AbsoluteName",
+          "Length" : 8,
+          "DataType" : "VARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : true,
+          "Description" : "MatchKeyWord2NYSIIS",
+          "Signed" : false,
+          "Metadata" : "VARCHAR(8), Null, Unicode",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "MatchKeyWord2NYSIIS_AbsoluteName",
+          "TempOldColumnName" : "MatchKeyWord2NYSIIS_AbsoluteName",
+          "ColumnName" : "MatchKeyWord2NYSIIS_AbsoluteName",
+          "Length" : 8,
+          "DataType" : "VARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        } ],
+        "spparam" : [ ],
+        "output_count" : 0,
+        "input_count" : 1,
+        "execmode" : "default_par",
+        "outputcolProperties" : [ ]
+      }
+    }, {
+      "outputs" : [ {
+        "id" : "30fa8ae1-f41f-4c77-8c57-c9744014f9ef",
+        "app_data" : {
+          "datastage" : {
+            "is_source_of_link" : "a494289f-9f04-4cc5-b94f-8fd9fd0ddd69"
+          },
+          "ui_data" : {
+            "label" : "outPort",
+            "cardinality" : {
+              "min" : 1,
+              "max" : 1
+            }
+          }
+        },
+        "schema_ref" : "c649b262-6cea-4b9e-9cf6-3224d28a37e7",
+        "parameters" : {
+          "valueDerivation" : [ {
+            "parsedExpression" : "MatchFrequency(qsFreqValue)",
+            "columnName" : "qsFreqValue",
+            "sourceColumn" : "Link_22.qsFreqValue"
+          }, {
+            "parsedExpression" : "MatchFrequency(qsFreqCounts)",
+            "columnName" : "qsFreqCounts",
+            "sourceColumn" : "Link_22.qsFreqCounts"
+          }, {
+            "parsedExpression" : "MatchFrequency(qsFreqColumnID)",
+            "columnName" : "qsFreqColumnID",
+            "sourceColumn" : "Link_22.qsFreqColumnID"
+          }, {
+            "parsedExpression" : "MatchFrequency(qsFreqHeaderFlag)",
+            "columnName" : "qsFreqHeaderFlag",
+            "sourceColumn" : "Link_22.qsFreqHeaderFlag"
+          } ]
+        }
+      } ],
+      "op" : "MatchFrequency",
+      "inputs" : [ {
+        "links" : [ {
+          "node_id_ref" : "f87d95a2-12e8-40ed-9d4e-7c9149ca4df5",
+          "type_attr" : "PRIMARY",
+          "id" : "6d255c57-2aab-44bd-814f-f6c762de5abc",
+          "app_data" : {
+            "ui_data" : {
+              "decorations" : [ {
+                "image" : "/data-intg/flows/graphics/flows/link-output-handle--default-selected.svg",
+                "temporary" : false,
+                "outline" : false,
+                "distance" : 0,
+                "x_pos" : -10,
+                "id" : "dec-3",
+                "position" : "source",
+                "y_pos" : -10,
+                "class_name" : "linkStartImage"
+              }, {
+                "image" : "/data-intg/flows/graphics/flows/link-marking--auto-partitioning.svg",
+                "temporary" : false,
+                "outline" : false,
+                "distance" : 2,
+                "width" : 50,
+                "tooltip" : "Auto-partition",
+                "x_pos" : -15,
+                "id" : "dec-6R",
+                "position" : "middle",
+                "y_pos" : 4,
+                "height" : 50
+              }, {
+                "temporary" : false,
+                "label_allow_return_key" : "save",
+                "label_single_line" : true,
+                "width" : 100,
+                "label_editable" : true,
+                "x_pos" : -18,
+                "id" : "dec-8",
+                "position" : "middle",
+                "label" : "Link_21",
+                "y_pos" : -20,
+                "height" : 80
+              } ],
+              "class_name" : "linkStyle__runMetricsLinkDefaultStyle___ixW31"
+            }
+          },
+          "link_name" : "Link_21",
+          "port_id_ref" : "aa30fd7a-b262-409b-ac29-e60fd9e40fd7"
+        } ],
+        "id" : "955c9829-b210-42a1-8f88-a7785b56b950",
+        "app_data" : {
+          "ui_data" : {
+            "label" : "inPort",
+            "cardinality" : {
+              "min" : 1,
+              "max" : 1
+            }
+          }
+        },
+        "schema_ref" : "696393dd-efa9-49ec-a15d-b954d471b2a0"
+      } ],
+      "id" : "930c4d84-20f7-4b35-b386-c6e756dccd19",
+      "type" : "execution_node",
+      "app_data" : {
+        "ui_data" : {
+          "image" : "/data-intg/flows/graphics/palette/MatchFrequency.svg",
+          "x_pos" : 982.08,
+          "label" : "Match_Frequency_1",
+          "y_pos" : 443.52
+        }
+      },
+      "parameters" : {
+        "showPartType" : true,
+        "pgmtype" : "dependent",
+        "maxfreq" : 100,
+        "matchType" : "Undup",
+        "showCollType" : false,
+        "specfile" : "",
+        "part_type" : "auto",
+        "notUseSpecfile" : false,
+        "preserve" : -3,
+        "showSortOptions" : false,
+        "combinability" : "auto",
+        "inputcolProperties" : [ ],
+        "workdir" : "Match_Frequency_1",
+        "output_count" : 1,
+        "execmode" : "default_par",
+        "input_count" : 1,
+        "traceProperties" : [ ]
+      }
+    }, {
+      "outputs" : [ {
+        "id" : "1b67e48f-3ff1-49b5-8b56-e58cd6392df8",
+        "app_data" : {
+          "datastage" : {
+            "is_source_of_link" : "46f0e9d4-f845-4c0a-af31-918079df361e"
+          },
+          "ui_data" : {
+            "label" : "outPort",
+            "cardinality" : {
+              "min" : 0,
+              "max" : 2147483647
+            }
+          }
+        },
+        "schema_ref" : "05df1de9-5c00-41f7-bb04-71781ceb0586",
+        "parameters" : {
+          "buf_mode" : "default"
+        }
+      }, {
+        "id" : "b1c44619-3920-454a-a649-284537d638a2",
+        "app_data" : {
+          "datastage" : {
+            "is_source_of_link" : "f42f3e52-ec53-477d-a250-00277db46acf"
+          },
+          "ui_data" : {
+            "label" : "outPort",
+            "cardinality" : {
+              "min" : 0,
+              "max" : 2147483647
+            }
+          }
+        },
+        "schema_ref" : "b81920ce-8de2-48cc-a2ef-20f0d97403c2",
+        "parameters" : {
+          "buf_mode" : "default"
+        }
+      } ],
+      "op" : "PxCopy",
+      "inputs" : [ {
+        "links" : [ {
+          "node_id_ref" : "930c4d84-20f7-4b35-b386-c6e756dccd19",
+          "type_attr" : "PRIMARY",
+          "id" : "a494289f-9f04-4cc5-b94f-8fd9fd0ddd69",
+          "app_data" : {
+            "ui_data" : {
+              "decorations" : [ {
+                "image" : "/data-intg/flows/graphics/flows/link-output-handle--default-selected.svg",
+                "temporary" : false,
+                "outline" : false,
+                "distance" : 0,
+                "x_pos" : -10,
+                "id" : "dec-3",
+                "position" : "source",
+                "y_pos" : -10,
+                "class_name" : "linkStartImage"
+              }, {
+                "image" : "/data-intg/flows/graphics/flows/link-marking--auto-partitioning.svg",
+                "temporary" : false,
+                "outline" : false,
+                "distance" : 2,
+                "width" : 50,
+                "tooltip" : "Auto-partition",
+                "x_pos" : -15,
+                "id" : "dec-6R",
+                "position" : "middle",
+                "y_pos" : 4,
+                "height" : 50
+              }, {
+                "temporary" : false,
+                "label_allow_return_key" : "save",
+                "label_single_line" : true,
+                "width" : 100,
+                "label_editable" : true,
+                "x_pos" : -18,
+                "id" : "dec-8",
+                "position" : "middle",
+                "label" : "Link_22",
+                "y_pos" : -20,
+                "height" : 80
+              } ],
+              "class_name" : "linkStyle__runMetricsLinkDefaultStyle___ixW31"
+            }
+          },
+          "link_name" : "Link_22",
+          "port_id_ref" : "30fa8ae1-f41f-4c77-8c57-c9744014f9ef"
+        } ],
+        "id" : "21827678-16da-4e6e-adcd-3edc0797e0e2",
+        "app_data" : {
+          "ui_data" : {
+            "label" : "inPort",
+            "cardinality" : {
+              "min" : 1,
+              "max" : 1
+            }
+          }
+        },
+        "schema_ref" : "c649b262-6cea-4b9e-9cf6-3224d28a37e7",
+        "parameters" : { }
+      } ],
+      "id" : "babddbcc-2cb6-4e08-8df9-80e4886d98bd",
+      "type" : "execution_node",
+      "app_data" : {
+        "ui_data" : {
+          "image" : "/data-intg/flows/graphics/palette/PxCopy.svg",
+          "x_pos" : 1188,
+          "label" : "Copy_2",
+          "y_pos" : 443.52
+        }
+      },
+      "parameters" : {
+        "combinability" : "auto",
+        "output_count" : 2,
+        "execmode" : "default_par",
+        "input_count" : 1,
+        "enableFlowAcpControl" : true,
+        "force" : " ",
+        "part_type" : "auto"
+      }
+    }, {
+      "outputs" : [ {
+        "id" : "",
+        "app_data" : {
+          "ui_data" : {
+            "label" : "outPort",
+            "cardinality" : {
+              "min" : 0,
+              "max" : 1
+            }
+          }
+        },
+        "parameters" : {
+          "buf_mode" : "default"
+        }
+      } ],
+      "op" : "bigqueryPX",
+      "inputs" : [ {
+        "links" : [ {
+          "node_id_ref" : "babddbcc-2cb6-4e08-8df9-80e4886d98bd",
+          "type_attr" : "PRIMARY",
+          "id" : "46f0e9d4-f845-4c0a-af31-918079df361e",
+          "app_data" : {
+            "datastage" : { },
+            "ui_data" : {
+              "decorations" : [ {
+                "image" : "/data-intg/flows/graphics/flows/link-output-handle--default-selected.svg",
+                "temporary" : false,
+                "outline" : false,
+                "distance" : 0,
+                "x_pos" : -10,
+                "id" : "dec-3",
+                "position" : "source",
+                "y_pos" : -10,
+                "class_name" : "linkStartImage"
+              }, {
+                "image" : "/data-intg/flows/graphics/flows/link-marking--auto-partitioning.svg",
+                "temporary" : false,
+                "outline" : false,
+                "distance" : 2,
+                "width" : 50,
+                "tooltip" : "Auto-partition",
+                "x_pos" : -15,
+                "id" : "dec-6R",
+                "position" : "middle",
+                "y_pos" : 4,
+                "height" : 50
+              }, {
+                "temporary" : false,
+                "label_allow_return_key" : "save",
+                "label_single_line" : true,
+                "width" : 100,
+                "label_editable" : true,
+                "x_pos" : -18,
+                "id" : "dec-8",
+                "position" : "middle",
+                "label" : "Link_23",
+                "y_pos" : -20,
+                "height" : 80
+              } ],
+              "class_name" : "linkStyle__runMetricsLinkDefaultStyle___ixW31"
+            }
+          },
+          "link_name" : "Link_23",
+          "port_id_ref" : "1b67e48f-3ff1-49b5-8b56-e58cd6392df8"
+        } ],
+        "id" : "25f763d7-5fde-4ab7-9429-905288baad13",
+        "app_data" : {
+          "ui_data" : {
+            "label" : "inPort",
+            "cardinality" : {
+              "min" : 0,
+              "max" : 1
+            }
+          }
+        },
+        "schema_ref" : "05df1de9-5c00-41f7-bb04-71781ceb0586",
+        "parameters" : { }
+      } ],
+      "connection" : {
+        "ref" : "54719232-7cd0-42dd-98cf-f76b8f8716d2",
+        "properties" : {
+          "_java._heap_size" : 256,
+          "currentOutputLinkType" : "PRIMARY",
+          "before_after.after_node" : "",
+          "before_after.before_node.fail_on_error" : true,
+          "outputAcpShouldHide" : false,
+          "before_after.before_node.read_from_file_before_sql_node" : false,
+          "before_after.after_node.read_from_file_after_sql_node" : false,
+          "table_name" : "MF_Customer",
+          "before_after.before" : "",
+          "inputName" : "Link_23",
+          "write_mode" : "insert_only",
+          "node_number" : 0,
+          "before_after.after" : "",
+          "node_count" : 1,
+          "table_action" : "truncate",
+          "registerDataAsset" : false,
+          "showPartType" : true,
+          "before_after.after_node.fail_on_error" : true,
+          "showCollType" : false,
+          "before_after.before_node" : "",
+          "enableFlowAcpControl" : true,
+          "part_type" : "auto",
+          "schema_name" : "POC",
+          "before_after.after.read_from_file_after_sql" : false,
+          "showSortOptions" : false,
+          "before_after.before.read_from_file_before_sql" : false,
+          "before_after.before.fail_on_error" : true,
+          "before_after.after.fail_on_error" : true,
+          "procParamProperties" : [ ]
+        },
+        "name" : "BigQuery_Ishar"
+      },
+      "id" : "8162ba05-a2e5-4c7a-87a7-7f14ee6b80cc",
+      "type" : "binding",
+      "app_data" : {
+        "ui_data" : {
+          "image" : "/data-intg/flows/graphics/palette/bigqueryPX.svg",
+          "x_pos" : 1362.24,
+          "label" : "MF_Customer_1",
+          "y_pos" : 348.48
+        }
+      },
+      "parameters" : {
+        "combinability" : "auto",
+        "inputcolProperties" : [ {
+          "Unicode" : true,
+          "Description" : "Frequency output: variable name or value",
+          "Signed" : false,
+          "Metadata" : "VARCHAR, Unicode",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "qsFreqValue",
+          "TempOldColumnName" : "qsFreqValue",
+          "ColumnName" : "qsFreqValue",
+          "Length" : 0,
+          "DataType" : "VARCHAR",
+          "Key" : false,
+          "Nullable" : false
+        }, {
+          "Unicode" : true,
+          "Description" : "Frequency output: frequency counts",
+          "Signed" : false,
+          "Metadata" : "VARCHAR, Unicode",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "qsFreqCounts",
+          "TempOldColumnName" : "qsFreqCounts",
+          "ColumnName" : "qsFreqCounts",
+          "Length" : 0,
+          "DataType" : "VARCHAR",
+          "Key" : false,
+          "Nullable" : false
+        }, {
+          "Unicode" : false,
+          "Description" : "Frequency output: variable numeric identifier",
+          "Signed" : false,
+          "Metadata" : "INTEGER, Unsigned",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "qsFreqColumnID",
+          "TempOldColumnName" : "qsFreqColumnID",
+          "ColumnName" : "qsFreqColumnID",
+          "Length" : "–",
+          "DataType" : "INTEGER",
+          "Key" : false,
+          "Nullable" : false
+        }, {
+          "Unicode" : false,
+          "Description" : "Frequency output: flag to indicate variable header record, or regular record",
+          "Signed" : false,
+          "Metadata" : "TINYINT, Unsigned",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "qsFreqHeaderFlag",
+          "TempOldColumnName" : "qsFreqHeaderFlag",
+          "ColumnName" : "qsFreqHeaderFlag",
+          "Length" : "–",
+          "DataType" : "TINYINT",
+          "Key" : false,
+          "Nullable" : false
+        } ],
+        "spparam" : [ ],
+        "output_count" : 0,
+        "input_count" : 1,
+        "execmode" : "default_par",
+        "outputcolProperties" : [ {
+          "ColumnName" : "qsFreqValue",
+          "Description" : " ",
+          "Length" : 100,
+          "Signed" : false,
+          "Nullable_check" : true,
+          "Metadata" : "",
+          "DataType" : "LONGVARCHAR",
+          "Scale" : 0,
+          "Key" : false
+        }, {
+          "ColumnName" : "qsFreqCounts",
+          "Description" : " ",
+          "Length" : 100,
+          "Signed" : false,
+          "Nullable_check" : true,
+          "Metadata" : "",
+          "DataType" : "LONGVARCHAR",
+          "Scale" : 0,
+          "Key" : false
+        }, {
+          "ColumnName" : "qsFreqColumnID",
+          "Description" : " ",
+          "Length" : -1,
+          "Signed" : true,
+          "Nullable_check" : true,
+          "Metadata" : "BIGINT, Null",
+          "DataType" : "BIGINT",
+          "Scale" : 0,
+          "Key" : false
+        }, {
+          "ColumnName" : "qsFreqHeaderFlag",
+          "Description" : " ",
+          "Length" : -1,
+          "Signed" : true,
+          "Nullable_check" : true,
+          "Metadata" : "BIGINT, Null",
+          "DataType" : "BIGINT",
+          "Scale" : 0,
+          "Key" : false
+        } ]
+      }
+    }, {
+      "outputs" : [ {
+        "id" : "",
+        "app_data" : {
+          "ui_data" : {
+            "label" : "outPort",
+            "cardinality" : {
+              "min" : 0,
+              "max" : 1
+            }
+          }
+        },
+        "parameters" : {
+          "final_delim" : "end",
+          "null_field_sep_flag" : false,
+          "null_field" : "'NULL'",
+          "firstLineColumnNames" : "firstLineColumnNames",
+          "data_asset_id" : "b8a11287-4268-431f-8773-32e1909cdf42",
+          "buf_mode" : "default",
+          "keepPartitions" : " ",
+          "record_delim" : "'\\n'",
+          "file +" : [ "/px-storage/PXRuntime/Projects/16ce275c-c722-4e5b-b278-a8b54176b58d/MF_CUSTOMER_STANDARD.CSV" ],
+          "rejects" : "continue",
+          "quote" : "double",
+          "selection" : "file",
+          "execmode" : "default_seq",
+          "missingFile" : " ",
+          "reportProgress" : "yes",
+          "delim" : "','"
+        }
+      } ],
+      "op" : "PxSequentialFile",
+      "inputs" : [ {
+        "links" : [ {
+          "node_id_ref" : "babddbcc-2cb6-4e08-8df9-80e4886d98bd",
+          "type_attr" : "PRIMARY",
+          "id" : "f42f3e52-ec53-477d-a250-00277db46acf",
+          "app_data" : {
+            "datastage" : { },
+            "ui_data" : {
+              "decorations" : [ {
+                "image" : "/data-intg/flows/graphics/flows/link-output-handle--default-selected.svg",
+                "temporary" : false,
+                "outline" : false,
+                "distance" : 0,
+                "x_pos" : -10,
+                "id" : "dec-3",
+                "position" : "source",
+                "y_pos" : -10,
+                "class_name" : "linkStartImage"
+              }, {
+                "image" : "/data-intg/flows/graphics/flows/link-marking--collection.svg",
+                "temporary" : false,
+                "outline" : false,
+                "distance" : 0,
+                "width" : 50,
+                "tooltip" : "Collection",
+                "x_pos" : -15,
+                "id" : "dec-9M",
+                "position" : "middle",
+                "y_pos" : 4,
+                "height" : 50
+              }, {
+                "temporary" : false,
+                "label_allow_return_key" : "save",
+                "label_single_line" : true,
+                "width" : 100,
+                "label_editable" : true,
+                "x_pos" : -18,
+                "id" : "dec-8",
+                "position" : "middle",
+                "label" : "Link_24",
+                "y_pos" : -20,
+                "height" : 80
+              } ],
+              "class_name" : "linkStyle__runMetricsLinkDefaultStyle___ixW31"
+            }
+          },
+          "link_name" : "Link_24",
+          "port_id_ref" : "b1c44619-3920-454a-a649-284537d638a2"
+        } ],
+        "id" : "18c4c98c-2d02-4832-b801-4daba5270b81",
+        "app_data" : {
+          "ui_data" : {
+            "label" : "inPort",
+            "cardinality" : {
+              "min" : 0,
+              "max" : 1
+            }
+          }
+        },
+        "schema_ref" : "b81920ce-8de2-48cc-a2ef-20f0d97403c2",
+        "parameters" : {
+          "final_delim" : "end",
+          "showPartType" : false,
+          "null_field_sep_flag" : false,
+          "null_field" : "'NULL'",
+          "file_location" : "file_system",
+          "firstLineColumnNames" : "firstLineColumnNames",
+          "showCollType" : true,
+          "data_asset_id" : "b8a11287-4268-431f-8773-32e1909cdf42",
+          "enableFlowAcpControl" : true,
+          "inputName" : "Link_24",
+          "showSortOptions" : false,
+          "append-overwrite" : "overwrite",
+          "rejects" : "continue",
+          "inputcolProperties" : [ {
+            "Unicode" : true,
+            "Description" : "Frequency output: variable name or value",
+            "Signed" : false,
+            "Metadata" : "VARCHAR, Unicode",
+            "Scale" : 0,
+            "TimeScale" : 0,
+            "OldColumnName" : "qsFreqValue",
+            "TempOldColumnName" : "qsFreqValue",
+            "ColumnName" : "qsFreqValue",
+            "Length" : 0,
+            "MisFieldProperties" : "",
+            "DataType" : "VARCHAR",
+            "Key" : false,
+            "Nullable" : false
+          }, {
+            "Unicode" : true,
+            "Description" : "Frequency output: frequency counts",
+            "Signed" : false,
+            "Metadata" : "VARCHAR, Unicode",
+            "Scale" : 0,
+            "TimeScale" : 0,
+            "OldColumnName" : "qsFreqCounts",
+            "TempOldColumnName" : "qsFreqCounts",
+            "ColumnName" : "qsFreqCounts",
+            "Length" : 0,
+            "MisFieldProperties" : "",
+            "DataType" : "VARCHAR",
+            "Key" : false,
+            "Nullable" : false
+          }, {
+            "Unicode" : false,
+            "Description" : "Frequency output: variable numeric identifier",
+            "Signed" : false,
+            "Metadata" : "INTEGER, Unsigned",
+            "Scale" : 0,
+            "TimeScale" : 0,
+            "OldColumnName" : "qsFreqColumnID",
+            "TempOldColumnName" : "qsFreqColumnID",
+            "ColumnName" : "qsFreqColumnID",
+            "Length" : "–",
+            "MisFieldProperties" : "",
+            "DataType" : "INTEGER",
+            "Key" : false,
+            "Nullable" : false
+          }, {
+            "Unicode" : false,
+            "Description" : "Frequency output: flag to indicate variable header record, or regular record",
+            "Signed" : false,
+            "Metadata" : "TINYINT, Unsigned",
+            "Scale" : 0,
+            "TimeScale" : 0,
+            "OldColumnName" : "qsFreqHeaderFlag",
+            "TempOldColumnName" : "qsFreqHeaderFlag",
+            "ColumnName" : "qsFreqHeaderFlag",
+            "Length" : "–",
+            "MisFieldProperties" : "",
+            "DataType" : "TINYINT",
+            "Key" : false,
+            "Nullable" : false
+          } ],
+          "file" : [ "/px-storage/PXRuntime/Projects/16ce275c-c722-4e5b-b278-a8b54176b58d/MF_CUSTOMER_STANDARD.CSV" ],
+          "quote" : "double",
+          "connection_asset_id" : "",
+          "writemethod" : " ",
+          "nocleanup" : " ",
+          "dataAssetName" : "/px-storage/PXRuntime/Projects/16ce275c-c722-4e5b-b278-a8b54176b58d/MF_CUSTOMER_STANDARD.CSV",
+          "file_format" : "sequential",
+          "registerDataAsset" : true,
+          "delim" : "','"
+        }
+      } ],
+      "id" : "0945932c-26ca-46e4-a41f-04e99753b894",
+      "type" : "binding",
+      "app_data" : {
+        "ui_data" : {
+          "image" : "/data-intg/flows/graphics/palette/PxSequentialFile.svg",
+          "x_pos" : 1362.24,
+          "label" : "MF_CUSTOMER_STANDARDCSV_1",
+          "y_pos" : 522.72
+        }
+      },
+      "parameters" : {
+        "combinability" : "auto",
+        "output_count" : 0,
+        "nls_map_name" : "UTF-8",
+        "input_count" : 1,
+        "execmode" : "default_seq",
+        "outputcolProperties" : [ {
+          "ColumnName" : "qsFreqValue",
+          "Description" : " ",
+          "Length" : 1024,
+          "Signed" : false,
+          "Nullable_check" : true,
+          "DataType" : "VARCHAR",
+          "Scale" : 0,
+          "Key" : false
+        }, {
+          "ColumnName" : "qsFreqCounts",
+          "Description" : " ",
+          "Length" : 1024,
+          "Signed" : false,
+          "Nullable_check" : true,
+          "DataType" : "VARCHAR",
+          "Scale" : 0,
+          "Key" : false
+        }, {
+          "ColumnName" : "qsFreqColumnID",
+          "Description" : " ",
+          "Length" : 1,
+          "Signed" : false,
+          "Nullable_check" : true,
+          "DataType" : "BIT",
+          "Scale" : 0,
+          "Key" : false
+        }, {
+          "ColumnName" : "qsFreqHeaderFlag",
+          "Description" : " ",
+          "Length" : 1,
+          "Signed" : false,
+          "Nullable_check" : true,
+          "DataType" : "BIT",
+          "Scale" : 0,
+          "Key" : false
+        } ]
+      }
+    }, {
+      "outputs" : [ {
+        "id" : "f4765269-0644-4a48-8c08-e77c2f26a10d",
+        "app_data" : {
+          "datastage" : {
+            "is_source_of_link" : "27d0f496-66cd-4519-a503-f60c505b5d6b"
+          },
+          "ui_data" : {
+            "label" : "outPort",
+            "cardinality" : {
+              "min" : 0,
+              "max" : 1
+            }
+          },
+          "additionalProperties" : {
+            "enableAcp" : true
+          }
+        },
+        "schema_ref" : "2a1577ac-935e-4e92-91da-9b7e5b0a0e0c",
+        "parameters" : {
+          "buf_mode" : "default"
+        }
+      } ],
+      "op" : "bigqueryPX",
+      "inputs" : [ {
+        "id" : "",
+        "app_data" : {
+          "ui_data" : {
+            "label" : "inPort",
+            "cardinality" : {
+              "min" : 0,
+              "max" : 1
+            }
+          }
+        },
+        "parameters" : {
+          "part_coll" : "part_type"
+        }
+      } ],
+      "connection" : {
+        "ref" : "54719232-7cd0-42dd-98cf-f76b8f8716d2",
+        "project_ref" : "16ce275c-c722-4e5b-b278-a8b54176b58d",
+        "properties" : {
+          "_java._heap_size" : 256,
+          "currentOutputLinkType" : "PRIMARY",
+          "before_after.after_node" : "",
+          "before_after.before_node.fail_on_error" : true,
+          "outputAcpShouldHide" : true,
+          "partitioned" : false,
+          "before_after.before_node.read_from_file_before_sql_node" : false,
+          "select_statement" : "select * from POC.Customer\nwhere nama_kategori = 'PERSEORANGAN';",
+          "enableSchemalessDesign" : false,
+          "before_after.after_node.read_from_file_after_sql_node" : false,
+          "before_after.before" : "",
+          "node_number" : 0,
+          "generate_unicode_columns" : false,
+          "before_after.after" : "",
+          "node_count" : 1,
+          "before_after.after_node.fail_on_error" : true,
+          "before_after.before_node" : "",
+          "enableFlowAcpControl" : true,
+          "before_after.after.read_from_file_after_sql" : false,
+          "before_after.before.read_from_file_before_sql" : false,
+          "before_after.before.fail_on_error" : true,
+          "read_mode" : "select",
+          "select_statement.read_from_file_select" : false,
+          "valueDerivation" : [ ],
+          "before_after.after.fail_on_error" : true,
+          "use_gcs_staging" : false,
+          "procParamProperties" : [ ]
+        },
+        "name" : "BigQuery_Ishar"
+      },
+      "id" : "b6460225-a9a9-48e0-bbfd-19d47e9779e7",
+      "type" : "binding",
+      "app_data" : {
+        "ui_data" : {
+          "image" : "/data-intg/flows/graphics/palette/bigqueryPX.svg",
+          "x_pos" : 63.36,
+          "label" : "Perseorangan",
+          "y_pos" : 396
+        }
+      },
+      "parameters" : {
+        "combinability" : "auto",
+        "spparam" : [ ],
+        "output_count" : 1,
+        "input_count" : 0,
+        "execmode" : "default_par",
+        "preserve" : -3
+      }
+    }, {
+      "outputs" : [ {
+        "id" : "8b815298-6ba6-48c5-81ba-efce26489d57",
+        "app_data" : {
+          "datastage" : {
+            "is_source_of_link" : "3e267ee3-93f1-4f9f-a56a-a99206c7c69d"
+          },
+          "ui_data" : {
+            "label" : "outPort",
+            "cardinality" : {
+              "min" : 1,
+              "max" : 1
+            }
+          },
+          "additionalProperties" : {
+            "enableAcp" : true
+          }
+        },
+        "schema_ref" : "7fc580cf-0512-4c93-babe-027f9abedd01",
+        "parameters" : {
+          "valueDerivation" : [ {
+            "parsedExpression" : "Standardize(CompanyName_AbsoluteName)",
+            "columnName" : "CompanyName_AbsoluteName",
+            "sourceColumn" : "Link_25.CompanyName_AbsoluteName"
+          }, {
+            "parsedExpression" : "Standardize(AcronymOfKeywords_AbsoluteName)",
+            "columnName" : "AcronymOfKeywords_AbsoluteName",
+            "sourceColumn" : "Link_25.AcronymOfKeywords_AbsoluteName"
+          }, {
+            "parsedExpression" : "Standardize(MatchKeyWord1_AbsoluteName)",
+            "columnName" : "MatchKeyWord1_AbsoluteName",
+            "sourceColumn" : "Link_25.MatchKeyWord1_AbsoluteName"
+          }, {
+            "parsedExpression" : "Standardize(MatchKeyWord2_AbsoluteName)",
+            "columnName" : "MatchKeyWord2_AbsoluteName",
+            "sourceColumn" : "Link_25.MatchKeyWord2_AbsoluteName"
+          }, {
+            "parsedExpression" : "Standardize(MatchKeyWord1NYSIIS_AbsoluteName)",
+            "columnName" : "MatchKeyWord1NYSIIS_AbsoluteName",
+            "sourceColumn" : "Link_25.MatchKeyWord1NYSIIS_AbsoluteName"
+          }, {
+            "parsedExpression" : "Standardize(MatchKeyWord2NYSIIS_AbsoluteName)",
+            "columnName" : "MatchKeyWord2NYSIIS_AbsoluteName",
+            "sourceColumn" : "Link_25.MatchKeyWord2NYSIIS_AbsoluteName"
+          } ],
+          "buf_mode" : "default"
+        }
+      } ],
+      "op" : "Standardize",
+      "inputs" : [ {
+        "links" : [ {
+          "node_id_ref" : "b6460225-a9a9-48e0-bbfd-19d47e9779e7",
+          "type_attr" : "PRIMARY",
+          "id" : "27d0f496-66cd-4519-a503-f60c505b5d6b",
+          "app_data" : {
+            "ui_data" : {
+              "decorations" : [ {
+                "image" : "/data-intg/flows/graphics/flows/link-output-handle--default-selected.svg",
+                "temporary" : false,
+                "outline" : false,
+                "distance" : 0,
+                "x_pos" : -10,
+                "id" : "dec-3",
+                "position" : "source",
+                "y_pos" : -10,
+                "class_name" : "linkStartImage"
+              }, {
+                "image" : "/data-intg/flows/graphics/flows/link-marking--auto-partitioning.svg",
+                "temporary" : false,
+                "outline" : false,
+                "distance" : 2,
+                "width" : 50,
+                "tooltip" : "Auto-partition",
+                "x_pos" : -15,
+                "id" : "dec-6R",
+                "position" : "middle",
+                "y_pos" : 4,
+                "height" : 50
+              }, {
+                "temporary" : false,
+                "label_allow_return_key" : "save",
+                "label_single_line" : true,
+                "width" : 100,
+                "label_editable" : true,
+                "x_pos" : -18,
+                "id" : "dec-8",
+                "position" : "middle",
+                "label" : "Link_25",
+                "y_pos" : -20,
+                "height" : 80
+              } ],
+              "class_name" : "linkStyle__runMetricsLinkDefaultStyle___ixW31"
+            }
+          },
+          "link_name" : "Link_25",
+          "port_id_ref" : "f4765269-0644-4a48-8c08-e77c2f26a10d"
+        } ],
+        "id" : "24aa1bd8-b1e1-4d4a-81bc-28419ce44e6f",
+        "app_data" : {
+          "ui_data" : {
+            "label" : "inPort",
+            "cardinality" : {
+              "min" : 1,
+              "max" : 1
+            }
+          }
+        },
+        "schema_ref" : "2a1577ac-935e-4e92-91da-9b7e5b0a0e0c",
+        "parameters" : {
+          "runtime_column_propagation" : 0
+        }
+      } ],
+      "id" : "7db77857-41e6-4958-b720-03c3504cadf0",
+      "type" : "execution_node",
+      "app_data" : {
+        "ui_data" : {
+          "image" : "/data-intg/flows/graphics/palette/Standardize.svg",
+          "x_pos" : 269.28,
+          "label" : "Standardize_4",
+          "y_pos" : 396
+        }
+      },
+      "parameters" : {
+        "showPartType" : true,
+        "showCollType" : false,
+        "rulesetProperties" : [ {
+          "metadata" : [ {
+            "expression" : "Standardize(CompanyName_AbsoluteName)",
+            "name" : "CompanyName_AbsoluteName",
+            "length" : 100,
+            "type" : "VARCHAR",
+            "desc" : "CompanyName"
+          }, {
+            "expression" : "Standardize(NumberOfWords_AbsoluteName)",
+            "name" : "NumberOfWords_AbsoluteName",
+            "length" : 1,
+            "type" : "VARCHAR",
+            "desc" : "NumberOfWords"
+          }, {
+            "expression" : "Standardize(AcronymOfKeywords_AbsoluteName)",
+            "name" : "AcronymOfKeywords_AbsoluteName",
+            "length" : 10,
+            "type" : "VARCHAR",
+            "desc" : "AcronymOfKeywords"
+          }, {
+            "expression" : "Standardize(MatchKeyWord1_AbsoluteName)",
+            "name" : "MatchKeyWord1_AbsoluteName",
+            "length" : 15,
+            "type" : "VARCHAR",
+            "desc" : "New"
+          }, {
+            "expression" : "Standardize(MatchKeyWord2_AbsoluteName)",
+            "name" : "MatchKeyWord2_AbsoluteName",
+            "length" : 15,
+            "type" : "VARCHAR",
+            "desc" : "York"
+          }, {
+            "expression" : "Standardize(MatchKeyWord3_AbsoluteName)",
+            "name" : "MatchKeyWord3_AbsoluteName",
+            "length" : 15,
+            "type" : "VARCHAR",
+            "desc" : "Department"
+          }, {
+            "expression" : "Standardize(MatchKeyWord4_AbsoluteName)",
+            "name" : "MatchKeyWord4_AbsoluteName",
+            "length" : 15,
+            "type" : "VARCHAR",
+            "desc" : "Motor"
+          }, {
+            "expression" : "Standardize(MatchKeyWord5_AbsoluteName)",
+            "name" : "MatchKeyWord5_AbsoluteName",
+            "length" : 15,
+            "type" : "VARCHAR",
+            "desc" : "Vehicles"
+          }, {
+            "expression" : "Standardize(MatchKeyWord6_AbsoluteName)",
+            "name" : "MatchKeyWord6_AbsoluteName",
+            "length" : 15,
+            "type" : "VARCHAR",
+            "desc" : "State"
+          }, {
+            "expression" : "Standardize(MatchKeyWord7_AbsoluteName)",
+            "name" : "MatchKeyWord7_AbsoluteName",
+            "length" : 15,
+            "type" : "VARCHAR",
+            "desc" : "Investigation"
+          }, {
+            "expression" : "Standardize(MatchKeyWord8_AbsoluteName)",
+            "name" : "MatchKeyWord8_AbsoluteName",
+            "length" : 15,
+            "type" : "VARCHAR",
+            "desc" : "Div"
+          }, {
+            "expression" : "Standardize(MatchKeyWord1NYSIIS_AbsoluteName)",
+            "name" : "MatchKeyWord1NYSIIS_AbsoluteName",
+            "length" : 8,
+            "type" : "VARCHAR",
+            "desc" : "MatchKeyWord1NYSIIS"
+          }, {
+            "expression" : "Standardize(MatchKeyWord2NYSIIS_AbsoluteName)",
+            "name" : "MatchKeyWord2NYSIIS_AbsoluteName",
+            "length" : 8,
+            "type" : "VARCHAR",
+            "desc" : "MatchKeyWord2NYSIIS"
+          }, {
+            "expression" : "Standardize(TradeName_AbsoluteName)",
+            "name" : "TradeName_AbsoluteName",
+            "length" : 30,
+            "type" : "VARCHAR",
+            "desc" : "TradeName"
+          }, {
+            "expression" : "Standardize(StateOrgNum_AbsoluteName)",
+            "name" : "StateOrgNum_AbsoluteName",
+            "length" : 15,
+            "type" : "VARCHAR",
+            "desc" : "StateOrgNum"
+          }, {
+            "expression" : "Standardize(FranchiseNumber_AbsoluteName)",
+            "name" : "FranchiseNumber_AbsoluteName",
+            "length" : 10,
+            "type" : "VARCHAR",
+            "desc" : "FranchiseNumber"
+          }, {
+            "expression" : "Standardize(Division_AbsoluteName)",
+            "name" : "Division_AbsoluteName",
+            "length" : 30,
+            "type" : "VARCHAR",
+            "desc" : "Division"
+          }, {
+            "expression" : "Standardize(AccountInfo_AbsoluteName)",
+            "name" : "AccountInfo_AbsoluteName",
+            "length" : 30,
+            "type" : "VARCHAR",
+            "desc" : "AccountInfo"
+          }, {
+            "expression" : "Standardize(CorpDate_AbsoluteName)",
+            "name" : "CorpDate_AbsoluteName",
+            "length" : 8,
+            "type" : "VARCHAR",
+            "desc" : "CorpDate"
+          }, {
+            "expression" : "Standardize(UnknownWords_AbsoluteName)",
+            "name" : "UnknownWords_AbsoluteName",
+            "length" : 15,
+            "type" : "VARCHAR",
+            "desc" : "UnknownWords"
+          }, {
+            "expression" : "Standardize(UnhandledPattern_AbsoluteName)",
+            "name" : "UnhandledPattern_AbsoluteName",
+            "length" : 10,
+            "type" : "VARCHAR",
+            "desc" : "UnhandledPattern"
+          }, {
+            "expression" : "Standardize(UnhandledData_AbsoluteName)",
+            "name" : "UnhandledData_AbsoluteName",
+            "length" : 20,
+            "type" : "VARCHAR",
+            "desc" : "UnhandledData"
+          }, {
+            "expression" : "Standardize(ExceptionData_AbsoluteName)",
+            "name" : "ExceptionData_AbsoluteName",
+            "length" : 10,
+            "type" : "VARCHAR",
+            "desc" : "ExceptionData"
+          }, {
+            "expression" : "Standardize(InputPattern_AbsoluteName)",
+            "name" : "InputPattern_AbsoluteName",
+            "length" : 10,
+            "type" : "VARCHAR",
+            "desc" : "InputPattern"
+          }, {
+            "expression" : "Standardize(InvalidData_AbsoluteName)",
+            "name" : "InvalidData_AbsoluteName",
+            "length" : 10,
+            "type" : "VARCHAR",
+            "desc" : "InvalidData"
+          }, {
+            "expression" : "Standardize(InvalidReason_AbsoluteName)",
+            "name" : "InvalidReason_AbsoluteName",
+            "length" : 2,
+            "type" : "VARCHAR",
+            "desc" : "InvalidReason"
+          }, {
+            "expression" : "Standardize(UserOverrideFlag_AbsoluteName)",
+            "name" : "UserOverrideFlag_AbsoluteName",
+            "length" : 2,
+            "type" : "VARCHAR",
+            "desc" : "UserOverrideFlag"
+          } ],
+          "field" : "NAMA_CUSTOMER",
+          "preLiteral" : "",
+          "columnsString" : "NAMA_CUSTOMER",
+          "ruleset" : "AbsoluteName",
+          "optionMap" : [ ],
+          "location" : "./Customized Standardization Rules/Other Standardization Rules/AbsoluteName",
+          "postLiteral" : "",
+          "asset_id" : "2bc96f09-98d8-45f2-b075-8a367595c31d"
+        } ],
+        "preserve" : -3,
+        "inputName" : "Link_25",
+        "showSortOptions" : false,
+        "combinability" : "auto",
+        "inputcolProperties" : [ {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "LONGVARCHAR(100), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "KODE_NASABAH",
+          "TempOldColumnName" : "KODE_NASABAH",
+          "ColumnName" : "KODE_NASABAH",
+          "Length" : 100,
+          "MisFieldProperties" : "",
+          "DataType" : "LONGVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "LONGVARCHAR(100), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "NAMA_CUSTOMER",
+          "TempOldColumnName" : "NAMA_CUSTOMER",
+          "ColumnName" : "NAMA_CUSTOMER",
+          "Length" : 100,
+          "MisFieldProperties" : "",
+          "DataType" : "LONGVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "LONGVARCHAR(100), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "NAMA_KATEGORI",
+          "TempOldColumnName" : "NAMA_KATEGORI",
+          "ColumnName" : "NAMA_KATEGORI",
+          "Length" : 100,
+          "MisFieldProperties" : "",
+          "DataType" : "LONGVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "LONGVARCHAR(100), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "INTERCO_CD",
+          "TempOldColumnName" : "INTERCO_CD",
+          "ColumnName" : "INTERCO_CD",
+          "Length" : 100,
+          "MisFieldProperties" : "",
+          "DataType" : "LONGVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        } ],
+        "workdir" : "rule_set/Customized Standardization Rules/Other Standardization Rules/AbsoluteName",
+        "output_count" : 1,
+        "execmode" : "default_par",
+        "input_count" : 1,
+        "traceProperties" : [ ],
+        "case" : "UPPERALL"
+      }
+    }, {
+      "outputs" : [ {
+        "id" : "976f8f8f-2739-427b-9883-61f2ace3973b",
+        "app_data" : {
+          "datastage" : {
+            "is_source_of_link" : "a1fc1cf8-34d8-43bd-b507-12bacbe788e8"
+          },
+          "ui_data" : {
+            "label" : "outPort",
+            "cardinality" : {
+              "min" : 1,
+              "max" : 2147483647
+            }
+          },
+          "additionalProperties" : {
+            "enableAcp" : true
+          }
+        },
+        "schema_ref" : "605eac54-bed3-41fd-b46c-ab49e904c4a0",
+        "parameters" : {
+          "outputName" : "Link_30",
+          "valueDerivation" : [ {
+            "parsedExpression" : "NullToEmpty(Link_26.MatchKeyWord1_AbsoluteName) :' ':NullToEmpty(Link_26.MatchKeyWord2_AbsoluteName)",
+            "columnName" : "NAME_DT"
+          } ],
+          "buf_mode" : "default"
+        }
+      } ],
+      "op" : "CTransformerStage",
+      "inputs" : [ {
+        "links" : [ {
+          "node_id_ref" : "7db77857-41e6-4958-b720-03c3504cadf0",
+          "type_attr" : "PRIMARY",
+          "id" : "3e267ee3-93f1-4f9f-a56a-a99206c7c69d",
+          "app_data" : {
+            "datastage" : { },
+            "ui_data" : {
+              "decorations" : [ {
+                "image" : "/data-intg/flows/graphics/flows/link-output-handle--default-selected.svg",
+                "temporary" : false,
+                "outline" : false,
+                "distance" : 0,
+                "x_pos" : -10,
+                "id" : "dec-3",
+                "position" : "source",
+                "y_pos" : -10,
+                "class_name" : "linkStartImage"
+              }, {
+                "image" : "/data-intg/flows/graphics/flows/link-marking--auto-partitioning.svg",
+                "temporary" : false,
+                "outline" : false,
+                "distance" : 2,
+                "width" : 50,
+                "tooltip" : "Auto-partition",
+                "x_pos" : -15,
+                "id" : "dec-6R",
+                "position" : "middle",
+                "y_pos" : 4,
+                "height" : 50
+              }, {
+                "temporary" : false,
+                "label_allow_return_key" : "save",
+                "label_single_line" : true,
+                "width" : 100,
+                "label_editable" : true,
+                "x_pos" : -18,
+                "id" : "dec-8",
+                "position" : "middle",
+                "label" : "Link_26",
+                "y_pos" : -20,
+                "height" : 80
+              } ],
+              "class_name" : "linkStyle__runMetricsLinkDefaultStyle___ixW31"
+            }
+          },
+          "link_name" : "Link_26",
+          "port_id_ref" : "8b815298-6ba6-48c5-81ba-efce26489d57"
+        } ],
+        "id" : "aeb364bd-631e-4e0f-a2a1-8fd82ab93dda",
+        "app_data" : {
+          "ui_data" : {
+            "label" : "inPort",
+            "cardinality" : {
+              "min" : 1,
+              "max" : 1
+            }
+          }
+        },
+        "schema_ref" : "7fc580cf-0512-4c93-babe-027f9abedd01",
+        "parameters" : {
+          "keyColsPart" : [ ],
+          "perform_sort" : false,
+          "runtime_column_propagation" : 0
+        }
+      } ],
+      "id" : "27e8bcb1-ab0f-4002-83c0-8f5c2044daaa",
+      "type" : "execution_node",
+      "app_data" : {
+        "datastage" : {
+          "inputs_order" : "aeb364bd-631e-4e0f-a2a1-8fd82ab93dda",
+          "outputs_order" : "976f8f8f-2739-427b-9883-61f2ace3973b"
+        },
+        "ui_data" : {
+          "image" : "/data-intg/flows/graphics/palette/CTransformerStage.svg",
+          "x_pos" : 601.92,
+          "label" : "Transformer_4",
+          "y_pos" : 396
+        }
+      },
+      "parameters" : {
+        "combinability" : "auto",
+        "OutputlinkOrderingList" : [ {
+          "link_label" : "0",
+          "link_name" : "Link_30"
+        } ],
+        "InputlinkOrderingList" : [ {
+          "link_label" : "0",
+          "link_name" : "Link_26"
+        } ],
+        "output_count" : 1,
+        "BlockSizeSelectedType" : "systemSelected",
+        "StageVariables" : [ ],
+        "input_count" : 1,
+        "execmode" : "default_par",
+        "Triggers" : [ ],
+        "preserve" : -3,
+        "LoopVariables" : [ ],
+        "SKKeySourceType" : "file"
+      }
+    }, {
+      "outputs" : [ {
+        "id" : "7f1623c8-95aa-4e64-9718-cc0913d1f770",
+        "app_data" : {
+          "datastage" : {
+            "is_source_of_link" : "6de6bc79-f19d-4837-b3eb-02f7fab4d8e5"
+          },
+          "ui_data" : {
+            "label" : "outPort",
+            "cardinality" : {
+              "min" : 1,
+              "max" : 1
+            }
+          }
+        },
+        "schema_ref" : "d4776c97-14ff-44a3-93a4-2483dc482cf2",
+        "parameters" : {
+          "outputName" : "Link_29",
+          "valueDerivation" : [ {
+            "parsedExpression" : "KODE_NASABAH",
+            "columnName" : "KODE_NASABAH",
+            "sourceColumn" : "Link_30.KODE_NASABAH;Link_31.KODE_NASABAH"
+          }, {
+            "parsedExpression" : "NAMA_CUSTOMER",
+            "columnName" : "NAMA_CUSTOMER",
+            "sourceColumn" : "Link_30.NAMA_CUSTOMER;Link_31.NAMA_CUSTOMER"
+          }, {
+            "parsedExpression" : "NAMA_KATEGORI",
+            "columnName" : "NAMA_KATEGORI",
+            "sourceColumn" : "Link_30.NAMA_KATEGORI;Link_31.NAMA_KATEGORI"
+          }, {
+            "parsedExpression" : "INTERCO_CD",
+            "columnName" : "INTERCO_CD",
+            "sourceColumn" : "Link_30.INTERCO_CD;Link_31.INTERCO_CD"
+          }, {
+            "parsedExpression" : "CompanyName_AbsoluteName",
+            "columnName" : "CompanyName_AbsoluteName",
+            "sourceColumn" : "Link_30.CompanyName_AbsoluteName;Link_31.CompanyName_AbsoluteName"
+          }, {
+            "parsedExpression" : "NAME_DT",
+            "columnName" : "NAME_DT",
+            "sourceColumn" : "Link_30.NAME_DT;Link_31.NAME_DT"
+          }, {
+            "parsedExpression" : "AcronymOfKeywords_AbsoluteName",
+            "columnName" : "AcronymOfKeywords_AbsoluteName",
+            "sourceColumn" : "Link_30.AcronymOfKeywords_AbsoluteName;Link_31.AcronymOfKeywords_AbsoluteName"
+          }, {
+            "parsedExpression" : "MatchKeyWord1_AbsoluteName",
+            "columnName" : "MatchKeyWord1_AbsoluteName",
+            "sourceColumn" : "Link_30.MatchKeyWord1_AbsoluteName;Link_31.MatchKeyWord1_AbsoluteName"
+          }, {
+            "parsedExpression" : "MatchKeyWord2_AbsoluteName",
+            "columnName" : "MatchKeyWord2_AbsoluteName",
+            "sourceColumn" : "Link_30.MatchKeyWord2_AbsoluteName;Link_31.MatchKeyWord2_AbsoluteName"
+          }, {
+            "parsedExpression" : "MatchKeyWord1NYSIIS_AbsoluteName",
+            "columnName" : "MatchKeyWord1NYSIIS_AbsoluteName",
+            "sourceColumn" : "Link_30.MatchKeyWord1NYSIIS_AbsoluteName;Link_31.MatchKeyWord1NYSIIS_AbsoluteName"
+          }, {
+            "parsedExpression" : "MatchKeyWord2NYSIIS_AbsoluteName",
+            "columnName" : "MatchKeyWord2NYSIIS_AbsoluteName",
+            "sourceColumn" : "Link_30.MatchKeyWord2NYSIIS_AbsoluteName;Link_31.MatchKeyWord2NYSIIS_AbsoluteName"
+          } ]
+        }
+      } ],
+      "op" : "PxFunnel",
+      "inputs" : [ {
+        "links" : [ {
+          "node_id_ref" : "27e8bcb1-ab0f-4002-83c0-8f5c2044daaa",
+          "type_attr" : "PRIMARY",
+          "id" : "a1fc1cf8-34d8-43bd-b507-12bacbe788e8",
+          "app_data" : {
+            "datastage" : { },
+            "ui_data" : {
+              "decorations" : [ {
+                "image" : "/data-intg/flows/graphics/flows/link-output-handle--default-selected.svg",
+                "temporary" : false,
+                "outline" : false,
+                "distance" : 0,
+                "x_pos" : -10,
+                "id" : "dec-3",
+                "position" : "source",
+                "y_pos" : -10,
+                "class_name" : "linkStartImage"
+              }, {
+                "image" : "/data-intg/flows/graphics/flows/link-marking--auto-partitioning.svg",
+                "temporary" : false,
+                "outline" : false,
+                "distance" : 2,
+                "width" : 50,
+                "tooltip" : "Auto-partition",
+                "x_pos" : -15,
+                "id" : "dec-6R",
+                "position" : "middle",
+                "y_pos" : 4,
+                "height" : 50
+              }, {
+                "temporary" : false,
+                "label_allow_return_key" : "save",
+                "label_single_line" : true,
+                "width" : 100,
+                "label_editable" : true,
+                "x_pos" : -18,
+                "id" : "dec-8",
+                "position" : "middle",
+                "label" : "Link_30",
+                "y_pos" : -20,
+                "height" : 80
+              } ],
+              "class_name" : "linkStyle__runMetricsLinkDefaultStyle___ixW31"
+            }
+          },
+          "link_name" : "Link_30",
+          "port_id_ref" : "976f8f8f-2739-427b-9883-61f2ace3973b"
+        } ],
+        "id" : "0925ebf5-a210-41a0-810c-4b3ccc35e24e",
+        "app_data" : {
+          "ui_data" : {
+            "label" : "inPort",
+            "cardinality" : {
+              "min" : 2,
+              "max" : 2147483646
+            }
+          }
+        },
+        "schema_ref" : "605eac54-bed3-41fd-b46c-ab49e904c4a0"
+      }, {
+        "links" : [ {
+          "node_id_ref" : "0e6dd2b8-0fef-46d9-8856-c82ebd224a2c",
+          "type_attr" : "PRIMARY",
+          "id" : "4c200eae-316c-4c9c-84fa-fd39d2a9ea14",
+          "app_data" : {
+            "datastage" : { },
+            "ui_data" : {
+              "decorations" : [ {
+                "image" : "/data-intg/flows/graphics/flows/link-output-handle--default-selected.svg",
+                "temporary" : false,
+                "outline" : false,
+                "distance" : 0,
+                "x_pos" : -10,
+                "id" : "dec-3",
+                "position" : "source",
+                "y_pos" : -10,
+                "class_name" : "linkStartImage"
+              }, {
+                "image" : "/data-intg/flows/graphics/flows/link-marking--auto-partitioning.svg",
+                "temporary" : false,
+                "outline" : false,
+                "distance" : 2,
+                "width" : 50,
+                "tooltip" : "Auto-partition",
+                "x_pos" : -15,
+                "id" : "dec-6R",
+                "position" : "middle",
+                "y_pos" : 4,
+                "height" : 50
+              }, {
+                "temporary" : false,
+                "label_allow_return_key" : "save",
+                "label_single_line" : true,
+                "width" : 100,
+                "label_editable" : true,
+                "x_pos" : -18,
+                "id" : "dec-8",
+                "position" : "middle",
+                "label" : "Link_31",
+                "y_pos" : -20,
+                "height" : 80
+              } ],
+              "class_name" : "linkStyle__runMetricsLinkDefaultStyle___ixW31"
+            }
+          },
+          "link_name" : "Link_31",
+          "port_id_ref" : "c65ac48d-02ef-47bb-a1c4-0865742ec949"
+        } ],
+        "id" : "c651f066-52e1-4544-bb05-37c909b0425c",
+        "app_data" : {
+          "ui_data" : {
+            "label" : "inPort",
+            "cardinality" : {
+              "min" : 2,
+              "max" : 2147483646
+            }
+          }
+        },
+        "schema_ref" : "3c7e7ee2-c072-4641-a42b-9c2c4a56e538"
+      } ],
+      "id" : "3cf08999-66f0-41f6-9cdb-727e56fa766b",
+      "type" : "execution_node",
+      "app_data" : {
+        "datastage" : {
+          "inputs_order" : "0925ebf5-a210-41a0-810c-4b3ccc35e24e|c651f066-52e1-4544-bb05-37c909b0425c",
+          "outputs_order" : "7f1623c8-95aa-4e64-9718-cc0913d1f770"
+        },
+        "ui_data" : {
+          "image" : "/data-intg/flows/graphics/palette/PxFunnel.svg",
+          "x_pos" : 744.48,
+          "label" : "Funnel_1",
+          "y_pos" : 285.12
+        }
+      },
+      "parameters" : {
+        "combinability" : "auto",
+        "OutputlinkOrderingList" : [ ],
+        "InputlinkOrderingList" : [ {
+          "link_label" : "0",
+          "link_name" : "Link_30"
+        }, {
+          "link_label" : "1",
+          "link_name" : "Link_31"
+        } ],
+        "output_count" : 0,
+        "execmode" : "default_par",
+        "input_count" : 1,
+        "enableFlowAcpControl" : true,
+        "part_type" : "auto",
+        "operator" : "funnel"
+      }
+    } ],
+    "description" : "",
+    "id" : "b0786186-5577-46a4-8acc-34e02ca73dfc",
+    "app_data" : {
+      "datastage" : {
+        "nls_map_name" : "",
+        "nls_locale" : "OFF"
+      },
+      "ui_data" : {
+        "comments" : [ ]
+      }
+    },
+    "runtime_ref" : "pxOsh"
+  } ],
+  "external_paramsets" : [ ],
+  "json_schema" : "https://api.dataplatform.ibm.com/schemas/common-pipeline/pipeline-flow/pipeline-flow-v3-schema.json",
+  "schemas" : [ {
+    "id" : "21b662b1-285a-470f-ae3c-9d6482f4a805",
+    "fields" : [ {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_3.KODE_NASABAH",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "KODE_NASABAH",
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "LONGVARCHAR",
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_3.NAMA_CUSTOMER",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "NAMA_CUSTOMER",
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "LONGVARCHAR",
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "",
+        "source_field_id" : "Link_3.NAMA_CUSTOMER_NEW",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "NAMA_CUSTOMER_NEW",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "LONGVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_3.NAMA_KATEGORI",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "NAMA_KATEGORI",
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "LONGVARCHAR",
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_3.INTERCO_CD",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "INTERCO_CD",
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "LONGVARCHAR",
+        "type_code" : "STRING"
+      }
+    } ]
+  }, {
+    "id" : "836783c7-bd28-4f7b-8749-13803387bec2",
+    "fields" : [ {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_29.KODE_NASABAH",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "KODE_NASABAH",
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "LONGVARCHAR",
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_29.NAMA_CUSTOMER",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "NAMA_CUSTOMER",
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "LONGVARCHAR",
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_29.NAMA_KATEGORI",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "NAMA_KATEGORI",
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "LONGVARCHAR",
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_29.INTERCO_CD",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "INTERCO_CD",
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "LONGVARCHAR",
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "CompanyName",
+        "source_field_id" : "Link_29.CompanyName_AbsoluteName",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "CompanyName_AbsoluteName",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "TimeScale" : 0,
+        "source_field_id" : "Link_29.NAME_DT",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : false,
+      "name" : "NAME_DT",
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "AcronymOfKeywords",
+        "source_field_id" : "Link_29.AcronymOfKeywords_AbsoluteName",
+        "max_length" : 10,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "AcronymOfKeywords_AbsoluteName",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "New",
+        "source_field_id" : "Link_29.MatchKeyWord1_AbsoluteName",
+        "max_length" : 15,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "MatchKeyWord1_AbsoluteName",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "York",
+        "source_field_id" : "Link_29.MatchKeyWord2_AbsoluteName",
+        "max_length" : 15,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "MatchKeyWord2_AbsoluteName",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "MatchKeyWord1NYSIIS",
+        "source_field_id" : "Link_29.MatchKeyWord1NYSIIS_AbsoluteName",
+        "max_length" : 8,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "MatchKeyWord1NYSIIS_AbsoluteName",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "MatchKeyWord2NYSIIS",
+        "source_field_id" : "Link_29.MatchKeyWord2NYSIIS_AbsoluteName",
+        "max_length" : 8,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "MatchKeyWord2NYSIIS_AbsoluteName",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    } ]
+  }, {
+    "id" : "7df738fb-1f03-4f3c-a860-ba13f7b823d7",
+    "fields" : [ {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_29.KODE_NASABAH",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "KODE_NASABAH",
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "LONGVARCHAR",
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_29.NAMA_CUSTOMER",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "NAMA_CUSTOMER",
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "LONGVARCHAR",
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_29.NAMA_KATEGORI",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "NAMA_KATEGORI",
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "LONGVARCHAR",
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_29.INTERCO_CD",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "INTERCO_CD",
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "LONGVARCHAR",
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "CompanyName",
+        "source_field_id" : "Link_29.CompanyName_AbsoluteName",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "CompanyName_AbsoluteName",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "TimeScale" : 0,
+        "source_field_id" : "Link_29.NAME_DT",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : false,
+      "name" : "NAME_DT",
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "AcronymOfKeywords",
+        "source_field_id" : "Link_29.AcronymOfKeywords_AbsoluteName",
+        "max_length" : 10,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "AcronymOfKeywords_AbsoluteName",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "New",
+        "source_field_id" : "Link_29.MatchKeyWord1_AbsoluteName",
+        "max_length" : 15,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "MatchKeyWord1_AbsoluteName",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "York",
+        "source_field_id" : "Link_29.MatchKeyWord2_AbsoluteName",
+        "max_length" : 15,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "MatchKeyWord2_AbsoluteName",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "MatchKeyWord1NYSIIS",
+        "source_field_id" : "Link_29.MatchKeyWord1NYSIIS_AbsoluteName",
+        "max_length" : 8,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "MatchKeyWord1NYSIIS_AbsoluteName",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "MatchKeyWord2NYSIIS",
+        "source_field_id" : "Link_29.MatchKeyWord2NYSIIS_AbsoluteName",
+        "max_length" : 8,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "MatchKeyWord2NYSIIS_AbsoluteName",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    } ]
+  }, {
+    "id" : "d274bad7-a221-4cd0-979f-8914c3b98695",
+    "fields" : [ {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_3.KODE_NASABAH",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "KODE_NASABAH",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "LONGVARCHAR",
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_3.NAMA_CUSTOMER",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "NAMA_CUSTOMER",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "LONGVARCHAR",
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "",
+        "source_field_id" : "Link_3.NAMA_CUSTOMER_NEW",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "NAMA_CUSTOMER_NEW",
+      "isSelected" : false,
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "LONGVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_3.NAMA_KATEGORI",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "NAMA_KATEGORI",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "LONGVARCHAR",
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_3.INTERCO_CD",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "INTERCO_CD",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "LONGVARCHAR",
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "CompanyName",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "CompanyName_AbsoluteName",
+      "isSelected" : false,
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "AcronymOfKeywords",
+        "max_length" : 10,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "AcronymOfKeywords_AbsoluteName",
+      "isSelected" : false,
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "New",
+        "max_length" : 15,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "MatchKeyWord1_AbsoluteName",
+      "isSelected" : false,
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "York",
+        "max_length" : 15,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "MatchKeyWord2_AbsoluteName",
+      "isSelected" : false,
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "MatchKeyWord1NYSIIS",
+        "max_length" : 8,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "MatchKeyWord1NYSIIS_AbsoluteName",
+      "isSelected" : false,
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "MatchKeyWord2NYSIIS",
+        "max_length" : 8,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "MatchKeyWord2NYSIIS_AbsoluteName",
+      "isSelected" : false,
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    } ]
+  }, {
+    "id" : "696393dd-efa9-49ec-a15d-b954d471b2a0",
+    "fields" : [ {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_29.KODE_NASABAH",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "KODE_NASABAH",
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "LONGVARCHAR",
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_29.NAMA_CUSTOMER",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "NAMA_CUSTOMER",
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "LONGVARCHAR",
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_29.NAMA_KATEGORI",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "NAMA_KATEGORI",
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "LONGVARCHAR",
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_29.INTERCO_CD",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "INTERCO_CD",
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "LONGVARCHAR",
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "CompanyName",
+        "source_field_id" : "Link_29.CompanyName_AbsoluteName",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "CompanyName_AbsoluteName",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "TimeScale" : 0,
+        "source_field_id" : "Link_29.NAME_DT",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : false,
+      "name" : "NAME_DT",
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "AcronymOfKeywords",
+        "source_field_id" : "Link_29.AcronymOfKeywords_AbsoluteName",
+        "max_length" : 10,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "AcronymOfKeywords_AbsoluteName",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "New",
+        "source_field_id" : "Link_29.MatchKeyWord1_AbsoluteName",
+        "max_length" : 15,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "MatchKeyWord1_AbsoluteName",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "York",
+        "source_field_id" : "Link_29.MatchKeyWord2_AbsoluteName",
+        "max_length" : 15,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "MatchKeyWord2_AbsoluteName",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "MatchKeyWord1NYSIIS",
+        "source_field_id" : "Link_29.MatchKeyWord1NYSIIS_AbsoluteName",
+        "max_length" : 8,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "MatchKeyWord1NYSIIS_AbsoluteName",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "MatchKeyWord2NYSIIS",
+        "source_field_id" : "Link_29.MatchKeyWord2NYSIIS_AbsoluteName",
+        "max_length" : 8,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "MatchKeyWord2NYSIIS_AbsoluteName",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    } ]
+  }, {
+    "id" : "c649b262-6cea-4b9e-9cf6-3224d28a37e7",
+    "fields" : [ {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "Frequency output: variable name or value",
+        "max_length" : 0,
+        "is_signed" : false
+      },
+      "nullable" : false,
+      "name" : "qsFreqValue",
+      "type" : "string",
+      "app_data" : {
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "Frequency output: frequency counts",
+        "max_length" : 0,
+        "is_signed" : false
+      },
+      "nullable" : false,
+      "name" : "qsFreqCounts",
+      "type" : "string",
+      "app_data" : {
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "Frequency output: variable numeric identifier",
+        "max_length" : 0,
+        "is_signed" : false
+      },
+      "nullable" : false,
+      "name" : "qsFreqColumnID",
+      "type" : "integer",
+      "app_data" : {
+        "odbc_type" : "INTEGER",
+        "is_unicode_string" : false,
+        "type_code" : "INT32"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "Frequency output: flag to indicate variable header record, or regular record",
+        "max_length" : 0,
+        "is_signed" : false
+      },
+      "nullable" : false,
+      "name" : "qsFreqHeaderFlag",
+      "type" : "integer",
+      "app_data" : {
+        "odbc_type" : "TINYINT",
+        "is_unicode_string" : false,
+        "type_code" : "INT8"
+      }
+    } ]
+  }, {
+    "id" : "05df1de9-5c00-41f7-bb04-71781ceb0586",
+    "fields" : [ {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "Frequency output: variable name or value",
+        "source_field_id" : "Link_22.qsFreqValue",
+        "max_length" : 0,
+        "is_signed" : false
+      },
+      "nullable" : false,
+      "name" : "qsFreqValue",
+      "type" : "string",
+      "app_data" : {
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "Frequency output: frequency counts",
+        "source_field_id" : "Link_22.qsFreqCounts",
+        "max_length" : 0,
+        "is_signed" : false
+      },
+      "nullable" : false,
+      "name" : "qsFreqCounts",
+      "type" : "string",
+      "app_data" : {
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "Frequency output: variable numeric identifier",
+        "source_field_id" : "Link_22.qsFreqColumnID",
+        "max_length" : 0,
+        "is_signed" : false
+      },
+      "nullable" : false,
+      "name" : "qsFreqColumnID",
+      "type" : "integer",
+      "app_data" : {
+        "odbc_type" : "INTEGER",
+        "is_unicode_string" : false,
+        "type_code" : "INT32"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "Frequency output: flag to indicate variable header record, or regular record",
+        "source_field_id" : "Link_22.qsFreqHeaderFlag",
+        "max_length" : 0,
+        "is_signed" : false
+      },
+      "nullable" : false,
+      "name" : "qsFreqHeaderFlag",
+      "type" : "integer",
+      "app_data" : {
+        "odbc_type" : "TINYINT",
+        "is_unicode_string" : false,
+        "type_code" : "INT8"
+      }
+    } ]
+  }, {
+    "id" : "b81920ce-8de2-48cc-a2ef-20f0d97403c2",
+    "fields" : [ {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "Frequency output: variable name or value",
+        "source_field_id" : "Link_22.qsFreqValue",
+        "max_length" : 0,
+        "is_signed" : false
+      },
+      "nullable" : false,
+      "name" : "qsFreqValue",
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "Frequency output: frequency counts",
+        "source_field_id" : "Link_22.qsFreqCounts",
+        "max_length" : 0,
+        "is_signed" : false
+      },
+      "nullable" : false,
+      "name" : "qsFreqCounts",
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "Frequency output: variable numeric identifier",
+        "source_field_id" : "Link_22.qsFreqColumnID",
+        "max_length" : 6,
+        "is_signed" : false
+      },
+      "nullable" : false,
+      "name" : "qsFreqColumnID",
+      "type" : "integer",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "INTEGER",
+        "is_unicode_string" : false,
+        "type_code" : "INT32"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "Frequency output: flag to indicate variable header record, or regular record",
+        "source_field_id" : "Link_22.qsFreqHeaderFlag",
+        "max_length" : 6,
+        "is_signed" : false
+      },
+      "nullable" : false,
+      "name" : "qsFreqHeaderFlag",
+      "type" : "integer",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "TINYINT",
+        "is_unicode_string" : false,
+        "type_code" : "INT8"
+      }
+    } ]
+  }, {
+    "id" : "2a1577ac-935e-4e92-91da-9b7e5b0a0e0c",
+    "fields" : [ {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_25.KODE_NASABAH",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "KODE_NASABAH",
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "LONGVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_25.NAMA_CUSTOMER",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "NAMA_CUSTOMER",
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "LONGVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_25.NAMA_KATEGORI",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "NAMA_KATEGORI",
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "LONGVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_25.INTERCO_CD",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "INTERCO_CD",
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "LONGVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    } ]
+  }, {
+    "id" : "7fc580cf-0512-4c93-babe-027f9abedd01",
+    "fields" : [ {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "",
+        "source_field_id" : "Link_25.KODE_NASABAH",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "KODE_NASABAH",
+      "isSelected" : false,
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "LONGVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "",
+        "source_field_id" : "Link_25.NAMA_CUSTOMER",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "NAMA_CUSTOMER",
+      "isSelected" : false,
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "LONGVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "",
+        "source_field_id" : "Link_25.NAMA_KATEGORI",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "NAMA_KATEGORI",
+      "isSelected" : false,
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "LONGVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "",
+        "source_field_id" : "Link_25.INTERCO_CD",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "INTERCO_CD",
+      "isSelected" : false,
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "LONGVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "CompanyName",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "CompanyName_AbsoluteName",
+      "isSelected" : false,
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "AcronymOfKeywords",
+        "max_length" : 10,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "AcronymOfKeywords_AbsoluteName",
+      "isSelected" : false,
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "New",
+        "max_length" : 15,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "MatchKeyWord1_AbsoluteName",
+      "isSelected" : false,
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "York",
+        "max_length" : 15,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "MatchKeyWord2_AbsoluteName",
+      "isSelected" : false,
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "MatchKeyWord1NYSIIS",
+        "max_length" : 8,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "MatchKeyWord1NYSIIS_AbsoluteName",
+      "isSelected" : false,
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "MatchKeyWord2NYSIIS",
+        "max_length" : 8,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "MatchKeyWord2NYSIIS_AbsoluteName",
+      "isSelected" : false,
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    } ]
+  }, {
+    "id" : "d4776c97-14ff-44a3-93a4-2483dc482cf2",
+    "fields" : [ {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "updateFlag" : "update",
+      "nullable" : true,
+      "name" : "KODE_NASABAH",
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "LONGVARCHAR",
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "updateFlag" : "update",
+      "nullable" : true,
+      "name" : "NAMA_CUSTOMER",
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "LONGVARCHAR",
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "updateFlag" : "update",
+      "nullable" : true,
+      "name" : "NAMA_KATEGORI",
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "LONGVARCHAR",
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "updateFlag" : "update",
+      "nullable" : true,
+      "name" : "INTERCO_CD",
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "LONGVARCHAR",
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "CompanyName",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "CompanyName_AbsoluteName",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "TimeScale" : 0,
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : false,
+      "name" : "NAME_DT",
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "AcronymOfKeywords",
+        "max_length" : 10,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "AcronymOfKeywords_AbsoluteName",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "New",
+        "max_length" : 15,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "MatchKeyWord1_AbsoluteName",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "York",
+        "max_length" : 15,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "MatchKeyWord2_AbsoluteName",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "MatchKeyWord1NYSIIS",
+        "max_length" : 8,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "MatchKeyWord1NYSIIS_AbsoluteName",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "MatchKeyWord2NYSIIS",
+        "max_length" : 8,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "MatchKeyWord2NYSIIS_AbsoluteName",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    } ]
+  }, {
+    "id" : "605eac54-bed3-41fd-b46c-ab49e904c4a0",
+    "fields" : [ {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "",
+        "source_field_id" : "Link_26.KODE_NASABAH",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "KODE_NASABAH",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "LONGVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "",
+        "source_field_id" : "Link_26.NAMA_CUSTOMER",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "NAMA_CUSTOMER",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "LONGVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "",
+        "source_field_id" : "Link_26.NAMA_KATEGORI",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "NAMA_KATEGORI",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "LONGVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "",
+        "source_field_id" : "Link_26.INTERCO_CD",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "INTERCO_CD",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "LONGVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "CompanyName",
+        "source_field_id" : "Link_26.CompanyName_AbsoluteName",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "CompanyName_AbsoluteName",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "TimeScale" : 0,
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : false,
+      "name" : "NAME_DT",
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "AcronymOfKeywords",
+        "source_field_id" : "Link_26.AcronymOfKeywords_AbsoluteName",
+        "max_length" : 10,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "AcronymOfKeywords_AbsoluteName",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "New",
+        "source_field_id" : "Link_26.MatchKeyWord1_AbsoluteName",
+        "max_length" : 15,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "MatchKeyWord1_AbsoluteName",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "York",
+        "source_field_id" : "Link_26.MatchKeyWord2_AbsoluteName",
+        "max_length" : 15,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "MatchKeyWord2_AbsoluteName",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "MatchKeyWord1NYSIIS",
+        "source_field_id" : "Link_26.MatchKeyWord1NYSIIS_AbsoluteName",
+        "max_length" : 8,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "MatchKeyWord1NYSIIS_AbsoluteName",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "MatchKeyWord2NYSIIS",
+        "source_field_id" : "Link_26.MatchKeyWord2NYSIIS_AbsoluteName",
+        "max_length" : 8,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "MatchKeyWord2NYSIIS_AbsoluteName",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    } ]
+  }, {
+    "id" : "3c7e7ee2-c072-4641-a42b-9c2c4a56e538",
+    "fields" : [ {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_18.KODE_NASABAH",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "KODE_NASABAH",
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "LONGVARCHAR",
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_18.NAMA_CUSTOMER",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "NAMA_CUSTOMER",
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "LONGVARCHAR",
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_18.NAMA_KATEGORI",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "NAMA_KATEGORI",
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "LONGVARCHAR",
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_18.INTERCO_CD",
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "INTERCO_CD",
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "LONGVARCHAR",
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "CompanyName",
+        "TimeScale" : 0,
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "CompanyName_AbsoluteName",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "TimeScale" : 0,
+        "max_length" : 100,
+        "is_signed" : false
+      },
+      "nullable" : false,
+      "name" : "NAME_DT",
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "AcronymOfKeywords",
+        "source_field_id" : "Link_18.AcronymOfKeywords_AbsoluteName",
+        "max_length" : 10,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "AcronymOfKeywords_AbsoluteName",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "New",
+        "source_field_id" : "Link_18.MatchKeyWord1_AbsoluteName",
+        "max_length" : 15,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "MatchKeyWord1_AbsoluteName",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "York",
+        "source_field_id" : "Link_18.MatchKeyWord2_AbsoluteName",
+        "max_length" : 15,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "MatchKeyWord2_AbsoluteName",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "MatchKeyWord1NYSIIS",
+        "source_field_id" : "Link_18.MatchKeyWord1NYSIIS_AbsoluteName",
+        "max_length" : 8,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "MatchKeyWord1NYSIIS_AbsoluteName",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "MatchKeyWord2NYSIIS",
+        "source_field_id" : "Link_18.MatchKeyWord2NYSIIS_AbsoluteName",
+        "max_length" : 8,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "MatchKeyWord2NYSIIS_AbsoluteName",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : true,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    } ]
+  } ],
+  "doc_type" : "pipeline",
+  "id" : "24d4434e-1ad9-4a84-8873-975073a16c97",
+  "app_data" : {
+    "datastage" : {
+      "timestamp_format" : "",
+      "decimal_separator" : "",
+      "flowRunPriorityQueue" : "Medium",
+      "time_format" : "",
+      "date_format" : "",
+      "message_handlers" : [ ],
+      "version" : "3.0.5"
+    },
+    "additionalProperties" : {
+      "transInputLinkMapper" : {
+        "27e8bcb1-ab0f-4002-83c0-8f5c2044daaa" : "Link_26",
+        "0e6dd2b8-0fef-46d9-8856-c82ebd224a2c" : "Link_18"
+      },
+      "ELTDropdown" : {
+        "id" : "nesting",
+        "label" : "Generate nested SQL",
+        "value" : "NESTED_QUERY"
+      },
+      "saveChangeFrequency" : "apply_changes_temporarily",
+      "disableParamsCacheOnFlow" : false,
+      "rcpLinkList" : [ ],
+      "globalAcp" : true,
+      "enableRCP" : false,
+      "isNewTransActive" : false,
+      "enableSchemaLessDesign" : false,
+      "runMode" : "ETL"
+    }
+  },
+  "version" : "3.0",
+  "parameters" : {
+    "local_parameters" : [ ]
+  }
+}
