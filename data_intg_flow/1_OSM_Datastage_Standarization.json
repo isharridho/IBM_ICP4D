@@ -1312,9 +1312,9 @@
       "app_data" : {
         "ui_data" : {
           "image" : "/data-intg/flows/graphics/palette/bigqueryPX.svg",
-          "x_pos" : 1188,
+          "x_pos" : 1425.6,
           "label" : "POC_1",
-          "y_pos" : 79.2
+          "y_pos" : 63.36
         }
       },
       "parameters" : {
